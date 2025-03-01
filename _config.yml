@@ -50,7 +50,7 @@ kramdown:
 
 # Sass settings
 sass:
-  style: :expanded
+  style: expanded
 
 # Plugins
 gems:
