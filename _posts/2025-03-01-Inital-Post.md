@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Future Plans for ronin4n6labs"
+title: "Future Plans for Ronin4n6Labs"
 date: 2025-03-01 12:00:00
 categories: updates
 ---
