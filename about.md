@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 ---
 
+# About
 
 I'm Gregory (Greg) Wales, an independent researcher specializing in digital and multimedia forensic sciences. With over 30 years of experience in digital forensic science and 15 years in multimedia forensic science, my background as a retired Special Agent and Digital Forensic Examiner provides a unique perspective to my research.
 
@@ -14,6 +15,8 @@ My research philosophy centers on developing and validating multimedia forensic 
 - Exploring cross-platform analysis approaches
 - Investigating ways to mitigate cognitive bias in forensic examinations
 
+## More About My Research
+
 I'm committed to advancing the field through rigorous, transparent, and reproducible methodologies. My goal is to contribute to the integrity and reliability of forensic evidence in legal and investigative contexts through innovative research.
 
 Key areas of my research include:
@@ -23,6 +26,12 @@ Key areas of my research include:
 - Emerging technologies in multimedia forensics
 
 Through this platform, I aim to share insights from my research, engage with the forensic community, and contribute to the ongoing advancement of forensic science. I'm excited to collaborate with fellow researchers and practitioners in pushing the boundaries of what's possible in digital and multimedia forensics.
+
+## Logo Credit:
+
+The Ronin logo used on this site is from Behance.net, sourced from the "Samurai Concept" gallery: https://www.behance.net/gallery/25262027/Samurai-Concept.
+
+
 
 
 ### Contact me
