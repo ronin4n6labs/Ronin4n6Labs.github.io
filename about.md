@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-# About
-
 I'm Gregory (Greg) Wales, an independent researcher specializing in digital and multimedia forensic sciences. With over 30 years of experience in digital forensic science and 15 years in multimedia forensic science, my background as a retired Special Agent and Digital Forensic Examiner provides a unique perspective to my research.
 
 My research philosophy centers on developing and validating multimedia forensic methods and tools to enhance the analysis of digital images, videos, and audio. This includes:
