@@ -28,4 +28,4 @@ Through this platform, I aim to share insights from my research, engage with the
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[media4n6@gmail.com](mailto:media4n6@gmail.com)
