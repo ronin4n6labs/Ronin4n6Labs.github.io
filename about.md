@@ -19,9 +19,8 @@ I'm committed to advancing the field through rigorous, transparent, and reproduc
 Key areas of my research include:
 
 - Multimedia content verification techniques
-- Digital image and video forensics
-- Audio forensics and authentication
-- Emerging technologies in digital forensics
+- Digital image, audio, and video forensics
+- Emerging technologies in multimedia forensics
 
 Through this platform, I aim to share insights from my research, engage with the forensic community, and contribute to the ongoing advancement of forensic science. I'm excited to collaborate with fellow researchers and practitioners in pushing the boundaries of what's possible in digital and multimedia forensics.
 
