@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/Inital-Post/</loc>
+<lastmod>2025-03-01T05:00:00-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/Why-Ronin-Post/</loc>
+<lastmod>2025-03-19T23:15:00-06:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog-post-workarea/2025-03-20-Why-Ronin-Post/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/about/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/Backup/</loc>
+<lastmod>2025-03-01T11:49:02-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog-post-workarea/2025-03-xx-Why-Ronin-Post.html</loc>
+<lastmod>2025-03-17T09:21:34-06:00</lastmod>
+</url>
+</urlset>
