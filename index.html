@@ -2,21 +2,36 @@
 layout: default
 title: "Ronin4n6Labs Research Platform: Advancing Digital & Multimedia Forensics"
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="Independent research platform advancing digital and multimedia forensics, focusing on content verification and analysis methods.">
+    <meta name="keywords" content="digital forensics, multimedia forensics, content verification, forensic analysis, independent research, Ronin4n6Labs">
+    <meta name="author" content="Your Name">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="Advancing digital and multimedia forensics through independent research and innovative analysis methods.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}">
+</head>
+<body>
+    <h1>{{ page.title }}</h1>
+    
+    <p>This site showcases my independent research in digital and multimedia forensics, focusing on innovative methods for content verification and analysis. Explore my work or read my latest updates below.</p>
 
-
-This site showcases my independent research in digital and multimedia forensics, focusing on innovative methods for content verification and analysis. Explore my work or read my latest updates below.
-
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+    <div class="posts">
+      {% for post in site.posts %}
+        <article class="post">
+          <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+          <div class="entry">
+            {{ post.excerpt }}
+          </div>
+          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        </article>
+      {% endfor %}
+    </div>
+</body>
+</html>
