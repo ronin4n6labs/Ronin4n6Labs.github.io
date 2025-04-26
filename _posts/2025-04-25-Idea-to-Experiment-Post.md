@@ -298,7 +298,7 @@ Statistical analysis depends on **clean, structured data**—refining collection
 
 - **Automate Data Collection Where Possible** – Using **scripted tools** minimizes human error in **hash verification, metadata extraction, and pixel-level comparisons**.  
 
-- **Predefine Metrics for Image Integrity** – Ensure collected data aligns with planned statistical analysis, including variables such as **hash consistency, SSIM values, and metadata alterations**.  
+- **Predefine Metrics for Image Integrity** – Ensure collected data aligns with planned statistical analysis, including variables such as **hash consistency, SSIM values, and git add . alterations**.  
 
 - **Prepare for Anomaly Detection** – Implement protocols to flag **unexpected results**, such as images where hash mismatches occur unexpectedly.  
   - Remember my **Controlled Test**? I intentionally introduce errors and **break my expectations** of results to assess whether my anomaly detection methods are effective. Running **edge-case forensic tests**, such as testing **intentionally degraded images**, further ensures that measurement tools can **accurately capture alterations**.  
