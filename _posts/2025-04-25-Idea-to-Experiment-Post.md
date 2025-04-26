@@ -46,7 +46,6 @@ Now that we’ve established a **specific and forensically relevant research que
 To assess image integrity, we will use:  
 
 - **Hash Verification** – Generating cryptographic hash values (e.g., SHA-256, MD5) before and after upload to detect bit-level modifications. If the hash values remain identical, the image is unchanged.  
-- **Exif Metadata Analysis** – Examining embedded metadata using tools like **ExifTool** to identify alterations in parameters such as resolution, compression, timestamps, or embedded thumbnails.  
 - **Pixel-Level Comparison Metrics** – Since we have a control image, full-reference metrics will provide meaningful integrity assessments:  
   - **Pearson Correlation Coefficient (PCC)** – Measures similarity between pixel intensity distributions across images.  
   - **Peak Signal-to-Noise Ratio (PSNR)** – Evaluates the degree of signal loss, with higher values indicating closer similarity to the control image.  
@@ -92,8 +91,8 @@ I prefer using both **Null and Alternative hypotheses** rather than just stating
 #### **Alternative Hypothesis (Ha):**  
 *"Uploading a JPEG image to Google Drive alters its original integrity."*  
 
-- This suggests that **Google Drive modifies the image** in some way—whether through **compression, metadata changes, or pixel-level distortions**.  
-- If findings show **hash mismatches**, **metadata alterations**, or **measurable differences in structural integrity metrics (PSNR, SSIM, MS-SSIM)**, we **reject the null hypothesis** in favor of the alternative hypothesis, confirming changes occurred.  
+- This suggests that **Google Drive modifies the image** in some way—whether through **compression, or pixel-level distortions**.  
+- If findings show **hash mismatches** or **measurable differences in structural integrity metrics (PSNR, SSIM, MS-SSIM)**, we **reject the null hypothesis** in favor of the alternative hypothesis, confirming changes occurred.  
 
 These hypotheses establish a **clear forensic testing framework**, if no detectable changes occur, the **null hypothesis holds**; if integrity alterations are confirmed, the **alternative hypothesis is supported**.  
 
@@ -273,7 +272,7 @@ A well-defined methodology ensures that forensic research is **repeatable, trans
 
 - **Validation with Replication** – Conduct multiple rounds of testing to confirm that results remain consistent across different samples.  
 
-For our study on **Google Drive image integrity**, maintaining forensic rigor means controlling how images are uploaded, downloaded, and processed while thoroughly documenting all metadata changes.  
+For our study on **Google Drive image integrity**, maintaining forensic rigor means controlling how images are uploaded, downloaded, and processed while thoroughly documenting all changes.  
 
 #### **Identifying Possible Limitations Before Running Full-Scale Experiments**  
 
@@ -301,7 +300,7 @@ Statistical analysis depends on **clean, structured data**—refining collection
 
 - **Predefine Metrics for Image Integrity** – Ensure collected data aligns with planned statistical analysis, including variables such as **hash consistency, SSIM values, and metadata alterations**.  
 
-- **Prepare for Anomaly Detection** – Implement protocols to flag **unexpected results**, such as images where hash mismatches occur unexpectedly or metadata changes contradict expectations.  
+- **Prepare for Anomaly Detection** – Implement protocols to flag **unexpected results**, such as images where hash mismatches occur unexpectedly.  
   - Remember my **Controlled Test**? I intentionally introduce errors and **break my expectations** of results to assess whether my anomaly detection methods are effective. Running **edge-case forensic tests**, such as testing **intentionally degraded images**, further ensures that measurement tools can **accurately capture alterations**.  
   - Controlled degradations—such as **adding compression artifacts, noise distortions, or format conversions**—help validate **measurement instrument sensitivity** before full-scale forensic testing.  
 
@@ -510,10 +509,8 @@ Used **Hasher v2.0** to conduct file hash analysis:
 ---
 
 #### **Final Considerations:**  
-It is essential to note that this **represents only one of several validation tests** required for a complete forensic study. Additional tests should evaluate:  
-- **Different upload/download methods** -- API-based transfers vs. manual uploads.  
-- **Image alterations under various storage conditions** -- Including network congestion and metadata handling.  
-
+It is essential to note that this **represents only one of several validation tests** required for a complete forensic study. Additional tests should evaluate Different upload/dow nload methods - API-based transfers vs. manual uploads.  
+ 
 By conducting **multiple controlled experiments**, forensic researchers ensure findings are **comprehensive, repeatable, and applicable to real-world forensic investigations**.  
 
 ---
