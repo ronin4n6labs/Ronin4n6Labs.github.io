@@ -5,7 +5,7 @@ date: 2025-04-26 09:30:00
 categories: updates
 ---
 
-### **Introduction: Two Paths to Forensic Inquiry—Explaining Anomalies vs. Advancing Research**  
+### Introduction: Two Paths to Forensic Inquiry—Explaining Anomalies vs. Advancing Research 
 
 In forensic science, structured investigation often emerges in two distinct ways:  
 
