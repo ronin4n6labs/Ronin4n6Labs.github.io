@@ -14,7 +14,7 @@ In forensic research, ensuring the integrity of digital evidence is paramount. W
 
 In forensic science, investigations typically begin along one of two paths:
 
-- A **practitioner** encounters an anomaly—such as an unexpected digital artifact or file alteration—and must determine its cause for courtroom testimony.  
+- A **practitioner** encounters an anomaly, such as an unexpected digital artifact or file alteration, and must determine its cause for courtroom testimony.  
 - A **researcher** identifies a gap in knowledge and designs a structured study to advance forensic science literature.  
 
 Both paths require a **methodical, evidence-driven approach**, whether the goal is courtroom defense or peer-reviewed publication.
@@ -47,7 +47,7 @@ A strong **research question (RQ)** sets the foundation for any forensic study. 
 - **Investigable**  
   - There must be a clear, systematic method to gather and analyze evidence.
 
-With a specific and forensically relevant RQ, we next ensure we can **test** it—requiring appropriate forensic measurement tools.
+With a specific and forensically relevant RQ, we next ensure we can test it, requiring appropriate forensic measurement tools.
 
 ---
 
@@ -86,7 +86,7 @@ Now that we have the RQ, we can develop a **hypothesis**—a formal, testable pr
 |-----------------------|------------------------------------------------------------|--------------------------------------------------------|
 | **Definition**         | A specific, testable prediction about a phenomenon.        | A well-substantiated explanation developed through repeated testing. |
 | **Testability**        | Designed to be tested and falsified.                       | Supported by extensive empirical evidence.             |
-| **Scope**              | Narrow—targets specific variables.                         | Broad—explains general principles and multiple phenomena. |
+| **Scope**              | Narrow that targets specific variables.                         | Broad as it explains general principles and multiple phenomena. |
 | **Example**            | *Hypothesis:* "Uploading a JPEG to Google Drive alters its integrity." | *Theory:* "Digital image compression algorithms systematically introduce forensic artifacts." |
 
 
@@ -150,7 +150,7 @@ Ask:
 - Are there contradictory findings about cloud storage’s effect on file integrity?  
 - Has anyone tested modern perceptual metrics (like SSIM) in this context?
 
-If your study systematically compares JPEG integrity across platforms using updated forensic techniques, you offer **new, practical insights** that could shape future digital evidence validation practices.
+If your study systematically compares JPEG integrity across platforms using updated forensic techniques, you offer **new and practical insights** that could shape future digital evidence validation practices.
 
 ---
 
@@ -280,8 +280,8 @@ By refining techniques early, forensic researchers ensure **credible, replicable
 
 Forensic validation requires ensuring that **measurement instruments correctly detect expected image changes** while avoiding false detections of intact images. Before proceeding, we will conduct **two control tests**:  
 
-1. **Control-Test-1: Validate measurement instruments by testing identical images**—ensuring forensic tools **correctly classify matching images as identical**.  
-2. **Control-Test-2: Evaluate forensic detection of compression artifacts**—confirming that measurement instruments **accurately flag compression-induced alterations** in digital images.  
+1. **Control-Test-1: Validate measurement instruments by testing identical images**, ensuring forensic tools correctly classify matching images as identical.  
+2. **Control-Test-2: Evaluate forensic detection of compression artifacts**, confirming that measurement instruments accurately flag compression-induced alterations in digital images.  
 
 ---  
 
@@ -398,11 +398,11 @@ Used **Hasher v2.0** to conduct a file hash analysis:
 
 #### **Mini-Pilot Test**  
 
-This **mini-pilot test** illustrates one of several forensic validation tests designed to determine whether **uploading a JPEG image to Google Drive affects its integrity**.  
+This **mini-pilot test** illustrates one of several forensic validation tests designed to determine whether uploading a JPEG image to Google Drive affects its integrity.  
 
-In this instance, I created a subfolder in Google Drive named `"Pilot-Study"` and **dragged and dropped** the image into the folder. When conducting a full forensic validation, researchers should test **both drag-and-drop uploads and file selection uploads**, as different methods could introduce variations in processing.  
+In this instance, I created a subfolder in Google Drive named `"Pilot-Study"` and dragged and dropped the image into the folder. When conducting a full forensic validation, researchers should test both drag-and-drop uploads and file selection uploads, as different methods could introduce variations in processing.  
 
-To ensure controlled retrieval, I selected the `"Pilot-Study"` folder for download, which automatically converted it into a **ZIP file**—this ensures the download process does not introduce external handling effects that could alter the test file.  
+To ensure controlled retrieval, I selected the `"Pilot-Study"` folder for download, which automatically converted it into a ZIP file, this ensures the download process does not introduce external handling effects that could alter the test file.  
 
 ---  
 
@@ -452,7 +452,7 @@ Used **Hasher v2.0** to conduct file hash analysis:
 ---  
 
 ##### **Final Considerations:**  
-It is essential to note that this **represents only one of several validation tests** required for a complete forensic study. Additional tests should evaluate **different upload/download methods** — API-based transfers vs. manual uploads.  
+It is essential to note that this **represents only one of several validation tests** required for a complete forensic study. Additional tests should evaluate **different upload/download methods**, an example would be API-based transfers vs. manual uploads.  
 
 By conducting **multiple controlled experiments**, forensic researchers ensure findings are **comprehensive, repeatable, and applicable to real-world forensic investigations**.  
 
