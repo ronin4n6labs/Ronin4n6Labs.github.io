@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forensic Research Foundations: How to Build a Study That Solves Mysteries and Advances Science – Ronin4n6Labs Research Platform: Advancing Digital & Multimedia Forensics – Independent (Ronin) Digital & Multimedia Forensic Researcher's Notebook & Thoughts</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Two Paths to Forensic Inquiry: Explaining Anomalies vs. Advancing Research
+
+" />
+    <meta property="og:description" content="Two Paths to Forensic Inquiry: Explaining Anomalies vs. Advancing Research
+
+" />
+    
+    <meta name="author" content="Ronin4n6Labs Research Platform: Advancing Digital & Multimedia Forensics" />
+
+    
+    <meta property="og:title" content="Forensic Research Foundations: How to Build a Study That Solves Mysteries and Advances Science" />
+    <meta property="twitter:title" content="Forensic Research Foundations: How to Build a Study That Solves Mysteries and Advances Science" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Ronin4n6Labs Research Platform: Advancing Digital & Multimedia Forensics - Independent (Ronin) Digital & Multimedia Forensic Researcher's Notebook & Thoughts" href="/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+
+        <header class="masthead clearfix">
+          <div class="header">
+            <img src="/images/Ronin.jpg" alt="Logo" class="logo">
+            <div class="title">
+              <h1 class="site-name"><a href="/">Ronin4n6Labs Research Platform: Advancing Digital & Multimedia Forensics</a></h1>
+              <p class="site-description">Independent (Ronin) Digital & Multimedia Forensic Researcher's Notebook & Thoughts</p>
+            </div>
+          </div>
+          
+          <nav>
+            <a href="/">Blog</a>
+            <a href="/about">About</a>
+          </nav>
+        </header>
+        
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>Forensic Research Foundations: How to Build a Study That Solves Mysteries and Advances Science</h1>
+
+  <div class="entry">
+    <h3 id="two-paths-to-forensic-inquiry-explaining-anomalies-vs-advancing-research">Two Paths to Forensic Inquiry: Explaining Anomalies vs. Advancing Research</h3>
+
+<h4 id="introduction">Introduction</h4>
+
+<p>In forensic research, ensuring the integrity of digital evidence is paramount. Whether it’s images, audio files, or video recordings, even the smallest alteration can lead to discrepancies in forensic analysis. Before diving into deeper statistical analysis and data interpretation, it’s essential to first establish a strong foundation. This includes validating the tools and methodologies used to examine digital media. In this post, we explore how to build a study that evaluates forensic image integrity, covering essential control tests and validation methods. By the end, you’ll gain insights into how a structured forensic study is set up, tested, and prepared for deeper statistical evaluation. Let’s start by laying the groundwork for future investigations that aim to solve real-world mysteries and push the boundaries of forensic science.</p>
+
+<p>In forensic science, investigations typically begin along one of two paths:</p>
+
+<ul>
+  <li>A <strong>practitioner</strong> encounters an anomaly—such as an unexpected digital artifact or file alteration—and must determine its cause for courtroom testimony.</li>
+  <li>A <strong>researcher</strong> identifies a gap in knowledge and designs a structured study to advance forensic science literature.</li>
+</ul>
+
+<p>Both paths require a <strong>methodical, evidence-driven approach</strong>, whether the goal is courtroom defense or peer-reviewed publication.</p>
+
+<p>To illustrate, consider a simple research question (RQ):</p>
+<blockquote>
+  <p><em>“Does uploading an image to Google Drive alter its integrity?”</em></p>
+</blockquote>
+
+<p>A <strong>forensic examiner</strong> may need to verify file authenticity during litigation, while a <strong>researcher</strong> may seek to assess cloud storage’s impact on digital evidence preservation.</p>
+
+<p>This post walks you through the foundational phases of forensic research, whether you’re solving an urgent mystery or building a publishable study.</p>
+
+<hr />
+
+<h3 id="1-formulating-the-research-question-and-hypothesis">1. Formulating the Research Question and Hypothesis</h3>
+
+<p>A strong <strong>research question (RQ)</strong> sets the foundation for any forensic study. It ensures the work remains relevant, focused, and investigable.</p>
+
+<p><strong>A good forensic RQ should be:</strong></p>
+
+<ul>
+  <li><strong>Specific and Clear</strong>
+    <ul>
+      <li>Broad questions create confusion. Narrow the focus.</li>
+      <li>Example refinement:
+        <blockquote>
+          <p><em>“What happens to a JPEG image when uploaded to Google Drive?”</em></p>
+        </blockquote>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Forensically Relevant</strong>
+    <ul>
+      <li>The question must contribute meaningfully to forensic science or practice.</li>
+      <li>Further refinement:
+        <blockquote>
+          <p><em>“Does uploading a JPEG image to Google Drive alter its original integrity?”</em></p>
+        </blockquote>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Investigable</strong>
+    <ul>
+      <li>There must be a clear, systematic method to gather and analyze evidence.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>With a specific and forensically relevant RQ, we next ensure we can <strong>test</strong> it—requiring appropriate forensic measurement tools.</p>
+
+<hr />
+
+<h4 id="forensic-tools-for-testing-image-integrity">Forensic Tools for Testing Image Integrity</h4>
+
+<p>To evaluate whether a JPEG’s integrity is altered after upload/download from Google Drive, we will use:</p>
+
+<ul>
+  <li><strong>Hash Verification</strong>
+    <ul>
+      <li>Generate cryptographic hashes (e.g., SHA-256, MD5) before and after upload to detect bit-level changes.</li>
+    </ul>
+  </li>
+  <li><strong>Pixel-Level Comparison Metrics</strong> (full-reference metrics, since we have a control/original image):
+    <ul>
+      <li><strong>Pearson Correlation Coefficient (PCC)</strong> — Measures similarity of pixel intensity distributions.</li>
+      <li><strong>Peak Signal-to-Noise Ratio (PSNR)</strong> — Evaluates signal loss; higher values = greater similarity.</li>
+      <li><strong>Structural Similarity Index (SSIM)</strong> — Assesses structural distortion with perceptual quality in mind.</li>
+      <li><strong>Multi-Scale Structural Similarity (MS-SSIM)</strong> — A multi-resolution version of SSIM for deeper analysis.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>These tools offer a structured, measurable way to assess forensic integrity.</p>
+
+<hr />
+
+<h4 id="final-research-question">Final Research Question</h4>
+
+<blockquote>
+  <p><em>“Does uploading a JPEG image to Google Drive alter its original integrity?”</em></p>
+</blockquote>
+
+<hr />
+
+<h3 id="2-from-research-question-to-hypothesis">2. From Research Question to Hypothesis</h3>
+
+<p>Now that we have the RQ, we can develop a <strong>hypothesis</strong>—a formal, testable prediction.</p>
+
+<hr />
+
+<h4 id="hypothesis-vs-theory-key-distinctions">Hypothesis vs. Theory: Key Distinctions</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th><strong>Hypothesis</strong></th>
+      <th><strong>Theory</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Definition</strong></td>
+      <td>A specific, testable prediction about a phenomenon.</td>
+      <td>A well-substantiated explanation developed through repeated testing.</td>
+    </tr>
+    <tr>
+      <td><strong>Testability</strong></td>
+      <td>Designed to be tested and falsified.</td>
+      <td>Supported by extensive empirical evidence.</td>
+    </tr>
+    <tr>
+      <td><strong>Scope</strong></td>
+      <td>Narrow—targets specific variables.</td>
+      <td>Broad—explains general principles and multiple phenomena.</td>
+    </tr>
+    <tr>
+      <td><strong>Example</strong></td>
+      <td><em>Hypothesis:</em> “Uploading a JPEG to Google Drive alters its integrity.”</td>
+      <td><em>Theory:</em> “Digital image compression algorithms systematically introduce forensic artifacts.”</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>A <strong>hypothesis</strong> is <strong>early-stage</strong> and <strong>study-specific</strong>, while a <strong>theory</strong> represents <strong>long-term scientific consensus</strong>.</p>
+
+<hr />
+
+<h4 id="developing-the-hypotheses">Developing the Hypotheses</h4>
+
+<p>In forensic work, it’s best to clearly define <strong>both</strong> the null and alternative hypotheses:</p>
+
+<ul>
+  <li><strong>Null Hypothesis (H₀):</strong>
+    <blockquote>
+      <p><em>Uploading a JPEG image to Google Drive does not alter its original integrity.</em></p>
+    </blockquote>
+    <ul>
+      <li>Predicts no change: identical hashes, identical or highly similar pixel structures (PCC, PSNR, SSIM, MS-SSIM).</li>
+    </ul>
+  </li>
+  <li><strong>Alternative Hypothesis (Ha):</strong>
+    <blockquote>
+      <p><em>Uploading a JPEG image to Google Drive alters its original integrity.</em></p>
+    </blockquote>
+    <ul>
+      <li>Predicts some detectable change: hash mismatches or measurable pixel-level differences.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Whether the results <strong>fail to reject</strong> the null (no change) or <strong>support</strong> the alternative (changes detected), these hypotheses provide a clear forensic framework for interpreting the findings.</p>
+
+<p><em>(Note: I use “Ha” rather than “H₁” for alternative hypothesis, following the notation style taught in my academic training—both are correct; it’s simply a matter of preference.)</em></p>
+
+<hr />
+
+<h3 id="3-conducting-a-literature-review">3. Conducting a Literature Review</h3>
+
+<p>Before launching an experiment, a solid forensic study must be grounded in existing knowledge. A literature review ensures:</p>
+
+<ul>
+  <li>Your study builds on validated methods.</li>
+  <li>You aren’t duplicating existing work without adding value.</li>
+  <li>You identify gaps or contradictions your research can address.</li>
+</ul>
+
+<hr />
+
+<h4 id="strategies-for-effective-literature-review">Strategies for Effective Literature Review</h4>
+
+<p>Focus on <strong>high-quality forensic sources</strong>, such as:</p>
+
+<ul>
+  <li><strong>Peer-Reviewed Journals</strong> — <em>Journal of Forensic Sciences</em>, <em>Digital Investigation</em>, <em>Forensic Science International</em>.</li>
+  <li><strong>Conference Proceedings</strong> — <em>International Conference on Digital Forensics &amp; Cybersecurity</em>.</li>
+  <li><strong>Technical Standards and Reports</strong> — <em>NIST</em>, <em>SWGDE</em>, <em>ISO standards</em>.</li>
+  <li><strong>Case Studies</strong> — Published examples of forensic anomalies and digital evidence handling.</li>
+</ul>
+
+<p>When analyzing sources:</p>
+
+<ul>
+  <li><strong>Track Citations</strong> — Use tools like Google Scholar’s <strong>“Cited by”</strong> to understand how a method or study has evolved.</li>
+  <li><strong>Compare Methodologies</strong> — Assess the strengths and weaknesses of prior approaches.</li>
+  <li><strong>Prioritize Forensic Relevance</strong> — Ensure studies address digital evidence concerns, not just general computer science problems.</li>
+</ul>
+
+<blockquote>
+  <p>Important: Forensic adoption of new techniques (e.g., SSIM, MS-SSIM) often lags behind innovation. Be cautious not to dismiss newer methods solely because they’re not yet widespread.</p>
+</blockquote>
+
+<hr />
+
+<h4 id="identifying-gaps-and-articulating-your-contribution">Identifying Gaps and Articulating Your Contribution</h4>
+
+<p>Ask:</p>
+
+<ul>
+  <li>Are previous studies limited by sample size or outdated tools?</li>
+  <li>Are there contradictory findings about cloud storage’s effect on file integrity?</li>
+  <li>Has anyone tested modern perceptual metrics (like SSIM) in this context?</li>
+</ul>
+
+<p>If your study systematically compares JPEG integrity across platforms using updated forensic techniques, you offer <strong>new, practical insights</strong> that could shape future digital evidence validation practices.</p>
+
+<hr />
+
+<h4 id="but-i-dont-have-access-to-academic-databases">“But I Don’t Have Access to Academic Databases”</h4>
+
+<p>It’s common to lack university library access, but you can still conduct a solid review.</p>
+
+<p>Best free tool: <strong>Google Scholar</strong>.</p>
+
+<p>Use strategies like:</p>
+
+<ul>
+  <li><strong>Reference Mining</strong> — Read the reference lists of paywalled papers.</li>
+  <li><strong>Author Search</strong> — Check if the same author published similar open-access work.</li>
+  <li><strong>Look for Preprints</strong> — Some researchers upload preprint versions on sites like arXiv or ResearchGate.</li>
+</ul>
+
+<p>Even restricted papers can often be leveraged for framing your study, as abstracts, methods, and cited references are usually visible.</p>
+
+<hr />
+
+<h4 id="4-moving-into-exploratory-mode"><strong>4. Moving into Exploratory Mode</strong></h4>
+
+<p>Once a research question is formulated and an initial literature review is completed, the next step is <strong>exploratory analysis</strong>, a critical phase where researchers determine whether an experiment is feasible and refine study parameters before committing to full-scale data collection. Exploratory analysis ensures that the research is <strong>methodologically sound and capable of yielding meaningful forensic insights</strong>.</p>
+
+<h5 id="sketching-a-pilot-study-to-assess-feasibility"><strong>Sketching a Pilot Study to Assess Feasibility</strong></h5>
+
+<p>Before launching a full experiment, a <strong>pilot study</strong> acts as a small-scale trial to:</p>
+
+<ul>
+  <li><strong>Verify whether data collection methods are effective</strong>
+    <ul>
+      <li>Pilot studies provide an opportunity to refine workflows, minimizing risks later in the larger research phase. This prevents flawed methodologies that could compromise forensic integrity.</li>
+      <li>However, <strong>unexpected variables often emerge</strong> during pilots. I regularly encounter issues that force adjustments, even when the process initially seems sound. Pilot testing is essential for identifying and mitigating <strong>extraneous variables</strong> early.</li>
+    </ul>
+  </li>
+  <li><strong>Identify unforeseen obstacles in the research process</strong>
+    <ul>
+      <li>Pilot studies help surface challenges that might not be obvious during planning. Flexibility is key; researchers must be prepared to pivot methodologies when necessary to maintain forensic rigor.</li>
+    </ul>
+  </li>
+  <li><strong>Ensure measurement instruments produce reliable results</strong>
+    <ul>
+      <li>If problems arise with measurement tools, the literature review is revisited to identify validated methodologies or explore published alternatives.</li>
+      <li>Sometimes, <strong>existing tools can be adapted</strong> with minimal changes. Other times, researchers must develop custom scripts—but referencing a <strong>peer-reviewed scientific source</strong> strengthens the validation of these new methods.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Example:</strong><br />
+For our working research question (<em>Does uploading a JPEG image to Google Drive alter its original integrity?</em>), a pilot study would involve uploading a small set of controlled images, retrieving them, and analyzing for detectable changes.</p>
+
+<p><strong>Key Considerations:</strong></p>
+<ul>
+  <li><strong>Selection of Test Images</strong> – Use JPEGs with varying resolutions and compression levels.</li>
+  <li><strong>Controlled Environment</strong> – Maintain consistent upload/download procedures.</li>
+  <li><strong>Preliminary Analysis Methods</strong> – Perform <strong>file hash verification</strong> and <strong>image quality assessments</strong> before scaling up.</li>
+</ul>
+
+<h5 id="incorporating-control-tests-during-pilot-studies"><strong>Incorporating Control Tests During Pilot Studies</strong></h5>
+
+<p>Control tests are essential before analyzing experimental data. They help validate that <strong>measurement instruments are functioning properly</strong>.</p>
+
+<p><strong>Lessons Learned from Pilot Studies:</strong></p>
+<ul>
+  <li>I have encountered cases where <strong>custom measurement tools failed</strong> to detect known file alterations.</li>
+  <li>By conducting <strong>controlled alterations</strong> (e.g., applying known compression levels), researchers can verify whether tools identify the expected changes.</li>
+  <li><strong>Pilot studies are the ideal phase to catch flaws</strong> in measurement techniques before proceeding to full datasets.</li>
+  <li><strong>Software validation</strong> should also occur during pilots to ensure forensic tools detect <strong>deep alterations</strong>, not just superficial metadata changes.</li>
+</ul>
+
+<h5 id="defining-key-variables"><strong>Defining Key Variables</strong></h5>
+
+<p>Clear definition of variables is critical:</p>
+
+<ul>
+  <li><strong>Independent Variable</strong> – What is manipulated (e.g., uploading to Google Drive).</li>
+  <li><strong>Dependent Variable</strong> – What is measured (e.g., file integrity changes detected by hash comparison or SSIM analysis).</li>
+  <li><strong>Extraneous Variables</strong> – Other factors potentially impacting results (e.g., cloud service compression, network conditions).</li>
+</ul>
+
+<p>Researchers must determine if <strong>automatic file processing</strong> (like compression) occurs during upload, since it may require separate evaluation.</p>
+
+<h4 id="selecting-and-validating-measurement-instruments"><strong>Selecting and Validating Measurement Instruments</strong></h4>
+
+<p>For forensic imaging studies, typical measurement tools include:</p>
+
+<ul>
+  <li><strong>File Hash Verification</strong> – Using SHA-256 or MD5 before and after upload.</li>
+  <li><strong>Multimedia Stream Hash Verification</strong> – Analyzing the embedded media stream content itself [1-2]</li>
+  <li><strong>Image Quality Metrics</strong> – Full-reference measures like <strong>PCC, PSNR, SSIM, and MS-SSIM</strong> [1-2]</li>
+</ul>
+
+<p>Reliability is established through <strong>repeatability</strong>, consistent results across repeated trials signal valid methods.</p>
+
+<p>By methodically structuring exploratory research, forensic practitioners lay the groundwork for reliable full-scale data collection.</p>
+
+<hr />
+
+<h4 id="5-preparing-for-full-scale-data-collection"><strong>5. Preparing for Full-Scale Data Collection</strong></h4>
+
+<p>Once exploratory testing is complete, attention shifts to <strong>structuring the full-scale data collection process</strong>, ensuring forensic validity, minimizing sources of error, and maintaining consistency.</p>
+
+<h5 id="structuring-your-methodology-for-forensic-rigor"><strong>Structuring Your Methodology for Forensic Rigor</strong></h5>
+
+<p>An effective forensic methodology must be <strong>repeatable, transparent, and defensible</strong>. Key elements include:</p>
+
+<ul>
+  <li><strong>Controlled Environment</strong> – Maintain consistency in upload/download processes, device settings, and network conditions.
+    <ul>
+      <li>I have had to <strong>pivot collection methods</strong> due to unexpected factors like software licensing changes. <strong>Version control</strong> of forensic tools is essential to preserve repeatability if environments shift.</li>
+    </ul>
+  </li>
+  <li><strong>Standardized Procedures</strong> – Create clear protocols for tasks like image preprocessing, metadata extraction, and comparison techniques.
+    <ul>
+      <li>Personally, I prefer <strong>visual workflows</strong> and <strong>step-by-step guides</strong> to enhance consistency.</li>
+    </ul>
+  </li>
+  <li><strong>Chain of Custody Documentation</strong> – Tightly track data from collection through analysis, using hashes at multiple stages.
+    <ul>
+      <li>Hashing is my first action during data collection. Multiple verifications during the process maintain forensic confidence—even if primary documentation is lost.</li>
+    </ul>
+  </li>
+  <li><strong>Validation with Replication</strong> – Repeat testing across samples to confirm result consistency.</li>
+</ul>
+
+<p>For example, in studying <strong>Google Drive image integrity</strong>, rigorous controls and documentation are critical to ensure forensic defensibility.</p>
+
+<h5 id="identifying-potential-limitations-before-full-collection"><strong>Identifying Potential Limitations Before Full Collection</strong></h5>
+
+<p>Anticipating limitations strengthens study design:</p>
+
+<ul>
+  <li><strong>Cloud Processing Risks</strong> – Some platforms automatically re-encode images. <strong>Google Drive’s behavior must be tested</strong> before assuming no alteration.</li>
+  <li><strong>Environmental Factors</strong> – Standardizing upload/download conditions minimizes variability.</li>
+  <li><strong>Measurement Tool Sensitivity</strong> – Tools that fail to detect subtle changes could mislead forensic conclusions. Sensitivity testing is critical.</li>
+  <li><strong>Sample Size and Variety</strong> – A broad dataset prevents bias. Researchers might also consider comparative tests across services like Dropbox or OneDrive for generalizability.</li>
+</ul>
+
+<h5 id="refining-techniques-ahead-of-statistical-analysis"><strong>Refining Techniques Ahead of Statistical Analysis</strong></h5>
+
+<p>Strong statistical analysis relies on <strong>clean, structured data</strong>. Refine collection methods by:</p>
+
+<ul>
+  <li><strong>Standardizing Naming and Organization</strong> – Clear filenames and directory structures simplify tracking.</li>
+  <li><strong>Automating Where Possible</strong> – Scripts reduce human error in hash verification, metadata extraction, and comparisons.</li>
+  <li><strong>Predefining Metrics</strong> – Ensure collected data matches analysis needs (hashes, SSIM scores, etc.).</li>
+  <li><strong>Preparing for Anomaly Detection</strong> – Develop protocols to flag unexpected findings.</li>
+</ul>
+
+<p>I also deliberately <strong>introduce errors</strong> during pilot phases, such as compression, noise addition, or format changes, to confirm that my anomaly detection and measurement instruments are truly sensitive.</p>
+
+<p>By refining techniques early, forensic researchers ensure <strong>credible, replicable, and statistically sound</strong> findings.</p>
+
+<hr />
+
+<h4 id="mini-pilot-study-set-up"><strong>Mini-Pilot Study Set-Up</strong></h4>
+
+<p>Forensic validation requires ensuring that <strong>measurement instruments correctly detect expected image changes</strong> while avoiding false detections of intact images. Before proceeding, we will conduct <strong>two control tests</strong>:</p>
+
+<ol>
+  <li><strong>Control-Test-1: Validate measurement instruments by testing identical images</strong>—ensuring forensic tools <strong>correctly classify matching images as identical</strong>.</li>
+  <li><strong>Control-Test-2: Evaluate forensic detection of compression artifacts</strong>—confirming that measurement instruments <strong>accurately flag compression-induced alterations</strong> in digital images.</li>
+</ol>
+
+<hr />
+
+<h5 id="control-test-1-measuring-identical-image-similarity"><strong>Control-Test-1: Measuring Identical Image Similarity</strong></h5>
+
+<p>This control test <strong>validates whether forensic tools correctly identify two identical images as unchanged</strong>, ensuring they do not falsely detect variations when none exist.</p>
+
+<h5 id="testing-hypothesis"><strong>Testing Hypothesis:</strong></h5>
+<ul>
+  <li><strong>Null Hypothesis (H₀):</strong> There are NO differences between the JPEG images.</li>
+  <li><strong>Alternative Hypothesis (Ha):</strong> There ARE differences between the JPEG images.</li>
+</ul>
+
+<h5 id="test-files"><strong>Test Files:</strong></h5>
+<ul>
+  <li><strong>Reference:</strong> <code class="language-plaintext highlighter-rouge">Control-1.jpg</code></li>
+  <li><strong>Questioned:</strong> <code class="language-plaintext highlighter-rouge">Control-1-copy.jpg</code></li>
+</ul>
+
+<blockquote>
+  <p><em>The questioned file was created by making an exact copy of the reference image. Since no modifications occurred, forensic tests should confirm an exact match.</em></p>
+</blockquote>
+
+<hr />
+
+<h5 id="hash-analysis"><strong>Hash Analysis</strong></h5>
+
+<p>Used <strong>Hasher v2.0</strong> to conduct a file hash analysis:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>FileName</strong></th>
+      <th><strong>SHA256 Hash</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Control-1.JPG</td>
+      <td><code class="language-plaintext highlighter-rouge">02BC049.....9F9F8FB0F</code></td>
+    </tr>
+    <tr>
+      <td>Control-1-copy.JPG</td>
+      <td><code class="language-plaintext highlighter-rouge">02BC049.....9F9F8FB0F</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Findings:</strong> Hashes match, confirming bitstream-level integrity.</p>
+
+<hr />
+
+<h5 id="image-quality-assessment-measurements-iqa"><strong>Image Quality Assessment Measurements (IQA)</strong></h5>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>IMG Stream</strong></th>
+      <th><strong>IMG Sub Diff</strong></th>
+      <th><strong>PCC</strong></th>
+      <th><strong>PSNR</strong></th>
+      <th><strong>SSIM</strong></th>
+      <th><strong>MS-SSIM</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Match</strong></td>
+      <td><strong>0</strong></td>
+      <td><strong>1</strong></td>
+      <td><strong>1</strong></td>
+      <td><strong>1</strong></td>
+      <td><strong>1</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="interpretation-of-metrics"><strong>Interpretation of Metrics:</strong></h5>
+<p>All forensic metrics confirm integrity preservation, verifying that forensic measurement tools correctly classify identical images as unchanged.</p>
+
+<hr />
+
+<h5 id="control-test-1-conclusion"><strong>Control-Test-1 Conclusion:</strong></h5>
+<p><em>We accept the Null Hypothesis—there are NO differences between the JPEG images.</em></p>
+
+<hr />
+
+<h4 id="control-test-2-measuring-compression-induced-image-variations"><strong>Control-Test-2: Measuring Compression-Induced Image Variations</strong></h4>
+
+<p>This control test evaluates whether forensic tools correctly detect compression induced image degradation confirming measurable differences between an original and highly compressed image.</p>
+
+<h5 id="testing-hypothesis-1"><strong>Testing Hypothesis:</strong></h5>
+<ul>
+  <li><strong>Null Hypothesis (H₀):</strong> There are NO differences between the JPEG images.</li>
+  <li><strong>Alternative Hypothesis (Ha):</strong> There ARE differences between the JPEG images.</li>
+</ul>
+
+<h5 id="test-files-1"><strong>Test Files:</strong></h5>
+<ul>
+  <li><strong>Reference:</strong> <code class="language-plaintext highlighter-rouge">Control-2.jpg</code></li>
+  <li><strong>Questioned:</strong> <code class="language-plaintext highlighter-rouge">Compressed-Control-2.jpg</code></li>
+</ul>
+
+<blockquote>
+  <p><em>The questioned file was created using MATLAB to apply increased compression to the reference image. Forensic tests should confirm measurable integrity loss.</em></p>
+</blockquote>
+
+<hr />
+
+<h5 id="jpeg-compression-levels-measured-via-imagemagick"><strong>JPEG Compression Levels (Measured via ImageMagick)</strong></h5>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>FileName</strong></th>
+      <th><strong>Magick Quality Score</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Control-2.jpg</td>
+      <td><strong>95</strong> (Minimal Compression)</td>
+    </tr>
+    <tr>
+      <td>Compressed-Control-2.jpg</td>
+      <td><strong>25</strong> (High Compression)</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><strong>A JPEG compressed at 25</strong> loses significant detail, introduces artifacts, and reduces color accuracy—appearing <strong>blurred or blocky</strong>, especially in fine textures.</li>
+  <li><strong>A JPEG saved at 95</strong> preserves detail and color fidelity, maintaining <strong>sharp edges and smoother gradients</strong>, though with a larger file size.</li>
+</ul>
+
+<hr />
+
+<h5 id="hash-analysis-1"><strong>Hash Analysis</strong></h5>
+
+<p>Used <strong>Hasher v2.0</strong> to conduct a file hash analysis:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>FileName</strong></th>
+      <th><strong>SHA256 Hash</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Control-2.JPG</td>
+      <td><code class="language-plaintext highlighter-rouge">02BC049.....9F9F8FB0F</code></td>
+    </tr>
+    <tr>
+      <td>Compressed-Control-2.JPG</td>
+      <td><code class="language-plaintext highlighter-rouge">2C186C8.....420156959</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Findings:</strong> Hashes do NOT match—confirming compression-induced modifications.</p>
+
+<hr />
+
+<h5 id="image-quality-assessment-measurements-iqa-1"><strong>Image Quality Assessment Measurements (IQA)</strong></h5>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>IMG Stream</strong></th>
+      <th><strong>IMG Sub Diff</strong></th>
+      <th><strong>PCC</strong></th>
+      <th><strong>PSNR</strong></th>
+      <th><strong>SSIM</strong></th>
+      <th><strong>MS-SSIM</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>No Match</strong></td>
+      <td><strong>5605554</strong></td>
+      <td><strong>0.99653</strong></td>
+      <td><strong>0</strong></td>
+      <td><strong>0.86622</strong></td>
+      <td><strong>0.95843</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="interpretation-of-metrics-1"><strong>Interpretation of Metrics:</strong></h5>
+<ul>
+  <li><strong>IMG Stream mismatch</strong> confirms <strong>byte-level differences in compressed images</strong>.</li>
+  <li><strong>High pixel difference (IMG Sub Diff: 5605554)</strong> suggests noticeable structural alterations.</li>
+  <li><strong>PCC (0.99653)</strong> indicates high similarity, but <strong>not a perfect match</strong> due to compression artifacts.</li>
+  <li><strong>PSNR (0)</strong> suggests <strong>extreme signal loss</strong>, a hallmark of aggressive compression.</li>
+  <li><strong>SSIM (0.86622)</strong> indicates <strong>moderate structural degradation</strong> affecting forensic authentication.</li>
+  <li><strong>MS-SSIM (0.95843)</strong> confirms <strong>multi-scale integrity loss, but retains some resemblance</strong>.</li>
+</ul>
+
+<hr />
+
+<h5 id="control-test-2-conclusion"><strong>Control-Test-2 Conclusion:</strong></h5>
+<p><em>We reject the Null Hypothesis—compression introduces measurable differences between the JPEG images.</em></p>
+
+<hr />
+
+<h4 id="mini-pilot-test"><strong>Mini-Pilot Test</strong></h4>
+
+<p>This <strong>mini-pilot test</strong> illustrates one of several forensic validation tests designed to determine whether <strong>uploading a JPEG image to Google Drive affects its integrity</strong>.</p>
+
+<p>In this instance, I created a subfolder in Google Drive named <code class="language-plaintext highlighter-rouge">"Pilot-Study"</code> and <strong>dragged and dropped</strong> the image into the folder. When conducting a full forensic validation, researchers should test <strong>both drag-and-drop uploads and file selection uploads</strong>, as different methods could introduce variations in processing.</p>
+
+<p>To ensure controlled retrieval, I selected the <code class="language-plaintext highlighter-rouge">"Pilot-Study"</code> folder for download, which automatically converted it into a <strong>ZIP file</strong>—this ensures the download process does not introduce external handling effects that could alter the test file.</p>
+
+<hr />
+
+<h5 id="testing-hypothesis-2"><strong>Testing Hypothesis:</strong></h5>
+<ul>
+  <li><strong>Null Hypothesis (H₀)</strong> – Uploading a JPEG image to Google Drive does not alter its original integrity.</li>
+  <li><strong>Alternative Hypothesis (Ha)</strong> – Uploading a JPEG image to Google Drive does alter its original integrity.</li>
+</ul>
+
+<hr />
+
+<h5 id="test-files-2"><strong>Test Files:</strong></h5>
+<ul>
+  <li><strong>Reference</strong> – <code class="language-plaintext highlighter-rouge">Control-Copy-4-Upload.jpg</code></li>
+  <li><strong>Questioned</strong> – <code class="language-plaintext highlighter-rouge">Download-Control-Copy-4-Upload.jpg</code></li>
+</ul>
+
+<blockquote>
+  <p><em>The reference file was manually uploaded to Google Drive. The questioned file was downloaded from the <code class="language-plaintext highlighter-rouge">"Pilot-Study"</code> folder and extracted from the ZIP archive. If no modifications occurred, forensic tests should confirm an exact match.</em></p>
+</blockquote>
+
+<hr />
+
+<h5 id="hash-analysis-2"><strong>Hash Analysis</strong></h5>
+
+<p>Used <strong>Hasher v2.0</strong> to conduct file hash analysis:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>FileName</strong></th>
+      <th><strong>SHA256 Hash</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Control-Copy-4-Upload.jpg</td>
+      <td><code class="language-plaintext highlighter-rouge">02BC049.....9F9F8FB0F</code></td>
+    </tr>
+    <tr>
+      <td>Download-Control-Copy-4-Upload.jpg</td>
+      <td><code class="language-plaintext highlighter-rouge">02BC049.....9F9F8FB0F</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Findings:</strong> Hashes match, indicating no byte-level modifications during upload or download.</p>
+
+<hr />
+
+<h5 id="image-quality-assessment-measurements-iqa-2"><strong>Image Quality Assessment Measurements (IQA)</strong></h5>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>IMG Stream</strong></th>
+      <th><strong>IMG Sub Diff</strong></th>
+      <th><strong>PCC</strong></th>
+      <th><strong>PSNR</strong></th>
+      <th><strong>SSIM</strong></th>
+      <th><strong>MS-SSIM</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Match</strong></td>
+      <td><strong>0</strong></td>
+      <td><strong>1</strong></td>
+      <td><strong>1</strong></td>
+      <td><strong>1</strong></td>
+      <td><strong>1</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Findings:</strong> All IQA metrics confirm the images are identical, reinforcing forensic integrity.</p>
+
+<hr />
+
+<h5 id="mini-pilot-study-test-conclusion"><strong>Mini-Pilot Study Test Conclusion:</strong></h5>
+<p><em>We <strong>accept the Null Hypothesis</strong>—Uploading a JPEG image to Google Drive <strong>does not alter its original integrity</strong>.</em></p>
+
+<hr />
+
+<h5 id="final-considerations"><strong>Final Considerations:</strong></h5>
+<p>It is essential to note that this <strong>represents only one of several validation tests</strong> required for a complete forensic study. Additional tests should evaluate <strong>different upload/download methods</strong> — API-based transfers vs. manual uploads.</p>
+
+<p>By conducting <strong>multiple controlled experiments</strong>, forensic researchers ensure findings are <strong>comprehensive, repeatable, and applicable to real-world forensic investigations</strong>.</p>
+
+<hr />
+
+<h4 id="moving-forward-data-analysis--descriptive-statistics"><strong>Moving Forward: Data Analysis &amp; Descriptive Statistics</strong></h4>
+
+<p>In the next post, we will transition into data analysis, where we systematically examine collected data using descriptive statistics to summarize findings. This will include:</p>
+<ul>
+  <li>Central tendency measures – Analyzing mean, median, and mode to determine patterns.</li>
+  <li>Variability metrics – Exploring standard deviation and variance in forensic image integrity.</li>
+</ul>
+
+<p>By applying quantitative analysis techniques, we will further validate forensic image integrity metrics and explore deeper insights into potential anomalies and compression effects.</p>
+
+<p>This concludes our mini-pilot study phase, setting the stage for statistical evaluation and forensic data analysis. Stay tuned for the next post!</p>
+
+<hr />
+
+<h3 id="references">REFERENCES</h3>
+
+<ol>
+  <li>
+    <p><strong>Wales, G. S., Smith, J. M., Lacey, D. S., &amp; Grigoras, C.</strong> (2022). <em>Multimedia Stream Hashing: A Forensic Method for Content Verification</em>. Journal of Forensic Sciences. DOI: <a href="https://doi.org/10.1111/1556-4029.15148">10.1111/1556-4029.15148</a></p>
+  </li>
+  <li>
+    <p><strong>Wales, G. S.</strong> (2024). <em>Validation of Image Stream Hashing: A Forensic Method for Content Verification</em>. Journal of Forensic Sciences. DOI: <a href="https://doi.org/10.1111/1556-4029.15432">10.1111/1556-4029.15432</a></p>
+  </li>
+  <li>
+    <p><strong>NIST</strong> (2022). <em>Digital Investigation Techniques: A NIST Scientific Foundation Review</em>. <a href="https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8354-draft.pdf">Available here</a></p>
+  </li>
+  <li>
+    <p><strong>SWGDE</strong> (2025). <em>Tool and Method Testing for Digital Forensics</em>. <a href="https://www.swgde.org/wp-content/uploads/2024/04/2024-03-07-SWGDE-Minimum-Requirements-for-Testing-Tools-Used-in-Digital-and-Multimedia-Forensics-18-Q-001-2.1.pdf">Available here</a></p>
+  </li>
+</ol>
+
+<hr />
+
+  </div>
+
+  <div class="date">
+    Written on April 28, 2025
+  </div>
+
+  
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+<a href="mailto:media4n6@gmail.com"><i class="svg-icon email"></i></a>
+
+
+<a href="https://github.com/ronin4n6labs/Ronin4n6Labs.github.io"><i class="svg-icon github"></i></a>
+
+
+
+
+
+
+
+
+        </footer>
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>

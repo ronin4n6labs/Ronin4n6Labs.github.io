@@ -316,9 +316,10 @@ Used **Hasher v2.0** to conduct a file hash analysis:
 
 ##### **Image Quality Assessment Measurements (IQA)**  
 
-| **IMG Stream** | **IMG Sub Diff** | **PCC** | **PSNR** | **SSIM** | **MS-SSIM** |  
-|----------------|------------------|---------|----------|----------|-------------|  
+| **IMG Stream** | **IMG Sub Diff** | **PCC** | **PSNR** | **SSIM** | **MS-SSIM** |
+|----------------|------------------|---------|----------|----------|-------------|
 | **Match**      | **0**            | **1**   | **1**    | **1**    | **1**       |
+
 
 
 ##### **Interpretation of Metrics:**  
@@ -434,9 +435,11 @@ Used **Hasher v2.0** to conduct file hash analysis:
 
 ##### **Image Quality Assessment Measurements (IQA)**  
 
-| **IMG Stream** | **IMG Sub Diff** | **PCC**  | **PSNR** | **SSIM** | **MS-SSIM** |  
-|----------------|------------------|----------|----------|----------|-------------|  
-| **Match**      | **0**            | **1**    | **1**    | **1**    | **1**       |  
+| **IMG Stream**    | **IMG Sub Diff**    | **PCC**     | **PSNR**    | **SSIM**    | **MS-SSIM**    |
+|-------------------|---------------------|-------------|-------------|-------------|----------------|
+| **Match**         | **0**               | **1**       | **1**       | **1**       | **1**          |
+
+
 
 
 **Findings:** All IQA metrics confirm the images are identical, reinforcing forensic integrity.  
