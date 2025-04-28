@@ -154,7 +154,7 @@ If your study systematically compares JPEG integrity across platforms using upda
 
 #### "But I Don't Have Access to Academic Databases"
 
-It’s common to lack university library access—but you can still conduct a solid review.
+It’s common to lack university library access, but you can still conduct a solid review.
 
 Best free tool: **Google Scholar**.
 
@@ -166,16 +166,11 @@ Use strategies like:
 
 Even restricted papers can often be leveraged for framing your study, as abstracts, methods, and cited references are usually visible.
 
-
-Thank you for sending the second half — it's clear, structured, and fits very well with the tone and professional style of your first half.
-
-Here’s **my recommended version** of your second half, slightly edited for polish, clarity, and to better match the flow I suggested in the first half. I made it a little sharper and more connected across sections, but preserved your strong technical detail and personal perspective (because that's one of your major strengths).
-
 ---
 
 #### **4. Moving into Exploratory Mode**
 
-Once a research question is formulated and an initial literature review is completed, the next step is **exploratory analysis**—a critical phase where researchers determine whether an experiment is feasible and refine study parameters before committing to full-scale data collection. Exploratory analysis ensures that the research is **methodologically sound and capable of yielding meaningful forensic insights**.
+Once a research question is formulated and an initial literature review is completed, the next step is **exploratory analysis**, a critical phase where researchers determine whether an experiment is feasible and refine study parameters before committing to full-scale data collection. Exploratory analysis ensures that the research is **methodologically sound and capable of yielding meaningful forensic insights**.
 
 ##### **Sketching a Pilot Study to Assess Feasibility**
 
@@ -183,7 +178,7 @@ Before launching a full experiment, a **pilot study** acts as a small-scale tria
 
 - **Verify whether data collection methods are effective**  
   - Pilot studies provide an opportunity to refine workflows, minimizing risks later in the larger research phase. This prevents flawed methodologies that could compromise forensic integrity.
-  - However, **unexpected variables often emerge** during pilots. I regularly encounter issues that force adjustments—even when the process initially seems sound. Pilot testing is essential for identifying and mitigating **extraneous variables** early.
+  - However, **unexpected variables often emerge** during pilots. I regularly encounter issues that force adjustments, even when the process initially seems sound. Pilot testing is essential for identifying and mitigating **extraneous variables** early.
 
 - **Identify unforeseen obstacles in the research process**  
   - Pilot studies help surface challenges that might not be obvious during planning. Flexibility is key; researchers must be prepared to pivot methodologies when necessary to maintain forensic rigor.
@@ -228,7 +223,7 @@ For forensic imaging studies, typical measurement tools include:
 - **Multimedia Stream Hash Verification** – Analyzing the embedded media stream content itself [1-2]
 - **Image Quality Metrics** – Full-reference measures like **PCC, PSNR, SSIM, and MS-SSIM** [1-2]
 
-Reliability is established through **repeatability**—consistent results across repeated trials signal valid methods.
+Reliability is established through **repeatability**, consistent results across repeated trials signal valid methods.
 
 By methodically structuring exploratory research, forensic practitioners lay the groundwork for reliable full-scale data collection.
 
@@ -236,7 +231,7 @@ By methodically structuring exploratory research, forensic practitioners lay the
 
 #### **5. Preparing for Full-Scale Data Collection**
 
-Once exploratory testing is complete, attention shifts to **structuring the full-scale data collection process**—ensuring forensic validity, minimizing sources of error, and maintaining consistency.
+Once exploratory testing is complete, attention shifts to **structuring the full-scale data collection process**, ensuring forensic validity, minimizing sources of error, and maintaining consistency.
 
 ##### **Structuring Your Methodology for Forensic Rigor**
 
@@ -273,11 +268,9 @@ Strong statistical analysis relies on **clean, structured data**. Refine collect
 - **Predefining Metrics** – Ensure collected data matches analysis needs (hashes, SSIM scores, etc.).  
 - **Preparing for Anomaly Detection** – Develop protocols to flag unexpected findings.
 
-I also deliberately **introduce errors** during pilot phases—such as compression, noise addition, or format changes—to confirm that my anomaly detection and measurement instruments are truly sensitive.
+I also deliberately **introduce errors** during pilot phases, such as compression, noise addition, or format changes, to confirm that my anomaly detection and measurement instruments are truly sensitive.
 
 By refining techniques early, forensic researchers ensure **credible, replicable, and statistically sound** findings.
-
-Apologies for the confusion earlier! Let me revise the **mini-pilot study** section of your blog post, applying the suggestions and formatting in line with your needs. Here is the updated version:
 
 ---
 
@@ -323,10 +316,11 @@ Used **Hasher v2.0** to conduct a file hash analysis:
 
 | **IMG Stream** | **IMG Sub Diff** | **PCC** | **PSNR** | **SSIM** | **MS-SSIM** |  
 |----------------|------------------|---------|----------|----------|-------------|  
-| **Match**      | **0**            | **1**   | **1**    | **1**    | **1**       |  
+| **Match**      | **0**            | **1**   | **1**    | **1**    | **1**       |
+
 
 ##### **Interpretation of Metrics:**  
- **All forensic metrics confirm integrity preservation**—verifying that forensic measurement tools **correctly classify identical images as unchanged**.  
+ All forensic metrics confirm integrity preservation, verifying that forensic measurement tools correctly classify identical images as unchanged.  
 
 ---  
 
@@ -337,7 +331,7 @@ Used **Hasher v2.0** to conduct a file hash analysis:
 
 #### **Control-Test-2: Measuring Compression-Induced Image Variations**  
 
-This control test **evaluates whether forensic tools correctly detect compression-induced image degradation**—confirming measurable differences between an original and highly compressed image.  
+This control test evaluates whether forensic tools correctly detect compression induced image degradation confirming measurable differences between an original and highly compressed image.  
 
 ##### **Testing Hypothesis:**  
 - **Null Hypothesis (H₀):** There are NO differences between the JPEG images.  
@@ -353,10 +347,11 @@ This control test **evaluates whether forensic tools correctly detect compressio
 
 ##### **JPEG Compression Levels (Measured via ImageMagick)**  
 
-| **FileName**               | **Magick Quality Score** |  
-|----------------------------|--------------------------|  
-| Control-2.jpg              | **95** (Minimal Compression) |  
-| Compressed-Control-2.jpg   | **25** (High Compression) |  
+| **FileName**               | **Magick Quality Score**              |  
+|----------------------------|--------------------------------------|  
+| Control-2.jpg              | **95** (Minimal Compression)         |  
+| Compressed-Control-2.jpg   | **25** (High Compression)            |  
+ 
 
 - **A JPEG compressed at 25** loses significant detail, introduces artifacts, and reduces color accuracy—appearing **blurred or blocky**, especially in fine textures.  
 - **A JPEG saved at 95** preserves detail and color fidelity, maintaining **sharp edges and smoother gradients**, though with a larger file size.  
@@ -367,20 +362,21 @@ This control test **evaluates whether forensic tools correctly detect compressio
 
 Used **Hasher v2.0** to conduct a file hash analysis:  
 
-| **FileName**              | **SHA256 Hash** |  
-|---------------------------|-----------------|  
-| Control-2.JPG             | `02BC049.....9F9F8FB0F` |  
-| Compressed-Control-2.JPG  | `2C186C8.....420156959` |  
+| **FileName**              | **SHA256 Hash**                    |  
+|---------------------------|------------------------------------|  
+| Control-2.JPG             | `02BC049.....9F9F8FB0F`            |  
+| Compressed-Control-2.JPG  | `2C186C8.....420156959`            |  
 
 **Findings:** Hashes do NOT match—confirming compression-induced modifications.  
 
----  
+---
 
 ##### **Image Quality Assessment Measurements (IQA)**  
 
-| **IMG Stream** | **IMG Sub Diff** | **PCC** | **PSNR** | **SSIM** | **MS-SSIM** |  
-|----------------|------------------|---------|----------|----------|-------------|  
-| **No Match**   | **5605554**       | **0.99653** | **0**   | **0.86622** | **0.95843** |  
+| **IMG Stream** | **IMG Sub Diff** | **PCC**    | **PSNR**   | **SSIM**   | **MS-SSIM** |  
+|----------------|------------------|------------|------------|------------|-------------|  
+| **No Match**   | **5605554**       | **0.99653**| **0**      | **0.86622**| **0.95843** |  
+
 
 ##### **Interpretation of Metrics:**  
 - **IMG Stream mismatch** confirms **byte-level differences in compressed images**.  
@@ -425,20 +421,21 @@ To ensure controlled retrieval, I selected the `"Pilot-Study"` folder for downlo
 
 Used **Hasher v2.0** to conduct file hash analysis:  
 
-| **FileName**                   | **SHA256 Hash** |  
-|---------------------------------|-----------------|  
-| Control-Copy-4-Upload.jpg       | `02BC049.....9F9F8FB0F` |  
-| Download-Control-Copy-4-Upload.jpg | `02BC049.....9F9F8FB0F` |  
+| **FileName**                      | **SHA256 Hash**                |  
+|-----------------------------------|--------------------------------|  
+| Control-Copy-4-Upload.jpg         | `02BC049.....9F9F8FB0F`        |  
+| Download-Control-Copy-4-Upload.jpg| `02BC049.....9F9F8FB0F`        |  
 
 **Findings:** Hashes match, indicating no byte-level modifications during upload or download.  
 
----  
+---
 
 ##### **Image Quality Assessment Measurements (IQA)**  
 
-| **IMG Stream** | **IMG Sub Diff** | **PCC** | **PSNR** | **SSIM** | **MS-SSIM** |  
-|----------------|------------------|---------|----------|----------|-------------|  
-| **Match**      | **0**            | **1**   | **1**    | **1**    | **1**       |  
+| **IMG Stream** | **IMG Sub Diff** | **PCC**  | **PSNR** | **SSIM** | **MS-SSIM** |  
+|----------------|------------------|----------|----------|----------|-------------|  
+| **Match**      | **0**            | **1**    | **1**    | **1**    | **1**       |  
+
 
 **Findings:** All IQA metrics confirm the images are identical, reinforcing forensic integrity.  
 
