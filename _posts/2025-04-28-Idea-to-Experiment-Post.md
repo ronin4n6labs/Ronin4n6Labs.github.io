@@ -80,14 +80,39 @@ Now that we have the RQ, we can develop a **hypothesis**—a formal, testable pr
 
 ---
 
-#### Hypothesis vs. Theory: Key Distinctions
+<h4>Hypothesis vs. Theory: Key Distinctions</h4>
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th><strong>Hypothesis</strong></th>
+      <th><strong>Theory</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Definition</strong></td>
+      <td>A specific, testable prediction about a phenomenon.</td>
+      <td>A well-substantiated explanation developed through repeated testing.</td>
+    </tr>
+    <tr>
+      <td><strong>Testability</strong></td>
+      <td>Designed to be tested and falsified.</td>
+      <td>Supported by extensive empirical evidence.</td>
+    </tr>
+    <tr>
+      <td><strong>Scope</strong></td>
+      <td>Narrow—targets specific variables.</td>
+      <td>Broad—explains general principles and multiple phenomena.</td>
+    </tr>
+    <tr>
+      <td><strong>Example</strong></td>
+      <td><em>Hypothesis:</em> "Uploading a JPEG to Google Drive alters its integrity."</td>
+      <td><em>Theory:</em> "Digital image compression algorithms systematically introduce forensic artifacts."</td>
+    </tr>
+  </tbody>
+</table>
 
-| | **Hypothesis** | **Theory** |
-|:---|:---|:---|
-| **Definition** | A specific, testable prediction about a phenomenon. | A well-substantiated explanation developed through repeated testing. |
-| **Testability** | Designed to be tested and falsified. | Supported by extensive empirical evidence. |
-| **Scope** | Narrow—targets specific variables. | Broad—explains general principles and multiple phenomena. |
-| **Example** | *Hypothesis:* "Uploading a JPEG to Google Drive alters its integrity." | *Theory:* "Digital image compression algorithms systematically introduce forensic artifacts." |
 
 A **hypothesis** is **early-stage** and **study-specific**, while a **theory** represents **long-term scientific consensus**.
 
