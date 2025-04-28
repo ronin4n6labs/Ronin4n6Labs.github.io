@@ -8,14 +8,14 @@ categories: updates
 ### Introduction: Why Standards Are the Unsung Heroes of Forensics
 Imagine a courtroom where a grainy video could free an innocent person, or convict the wrong one. Now, picture the chaos if no one can agree it is real because the rules for checking its authenticity are murky, or do not even exist. That is where forensic standards step in, the glue holding justice together in a world of pixels and audio waves, from crime scenes to courtrooms.
 
-In the multimedia forensics grad courses where I lecture part-time, we explore how these standards tackle everything—from forensic science’s broad sweep to digital dives and multimedia’s complex puzzle, facing challenges like deepfakes and quantum computing’s early whispers. Stick with me, newbie or pro, as we peel back the layers, from core principles born at the century’s edge to tomorrow’s cutting-edge fights.
+In the multimedia forensics grad courses where I lecture part-time, we explore how these standards tackle everything, from forensic science’s broad sweep to digital dives and multimedia’s complex puzzle, facing challenges like deepfakes and quantum computing’s early whispers. Stick with me, newbie or pro, as we peel back the layers, from core principles born at the century’s edge to tomorrow’s cutting-edge fights.
 
 ---
 
 #### The Big Picture: Why Standards Matter
 ***Forensic science*** is not just about cool gadgets, it's about trust. Standards ensure forensic labs and forensic science practitioners (FSPs) worldwide get consistent results, especially in multimedia forensics, where we wrestle with audio snippets, Instagram pics, and TikTok clips, evidence as diverse as it is fleeting, "here today and gone tomorrow." Technology races ahead: ***Deepfakes*** did not exist a decade ago, and now we are tinkering with ***quantum computing*** prototypes, pushing standards to their limits. The goal? Forensic work that's ***reliable*** (it stands up to rigorous scrutiny), ***repeatable*** (others can redo it and match the outcome), and ***admissible*** (courts accept it), rooted in the Scientific Working Group on Digital Evidence (SWGDE) and International Organization on Computer Evidence's (IOCE) 1999 "Digital Evidence: Standards and Principles" [1].
 
-Let’s see standards in action with a real case, ***State of Washington v. Puloka (2024)***, a triple murder trial in Washington. Joshua Puloka faced three murder charges tied to a 2021 bar shooting. The defense offered an AI-enhanced version of a low-res smartphone video, possibly using a tool like Topaz Labs’ machine learning software, think of it as digital glasses to sharpen a blurry scene. Defense argued it clarified crucial details [2].
+Let’s see standards in action with a real case, ***State of Washington v. Puloka (2024)***, a triple murder trial in Washington. Joshua Puloka faced three murder charges tied to a 2021 bar shooting. The defense offered an AI-enhanced version of a low resolution smartphone video, possibly using a tool like Topaz Labs’ machine learning software, think of it as digital glasses to sharpen a blurry scene. Defense argued it clarified crucial details [2].
 
 However, the prosecution challenged the introduction of the video as evidence by defense based upon the following changes to the video. 
 
@@ -35,23 +35,23 @@ This case shows why standards are not just rules, they safeguard justice when te
 
 ***Note:*** I do not have first-hand knowledge of the tool used or access to the court transcript. I can only base it off of 3rd party news reports.
 
-Here is the IRAC breakdown (***Issue, Rule, Application, Conclusion***)—a structured approach often used in legal analysis to organize and evaluate issues systematically.
+Here is the IRAC breakdown (***Issue, Rule, Application, Conclusion***), a structured approach often used in legal analysis to organize and evaluate issues systematically.
 
 ***Issue:*** 
 Can AI-enhanced video pass forensic muster in court?
 
 ***Rule:*** 
-Forensic standards demand that evidence remains unaltered, is handled by competent professionals, and is fully documented to ensure ***reliability*** (results hold under scrutiny), ***repeatability*** (others can replicate the process), and ***admissibility*** (courts accept it as valid). The SWGDE/IOCE’s "Digital Evidence: Standards and Principles" (1999) set this foundation, requiring that actions during seizure not alter digital evidence, that only forensically competent individuals access originals, and that every step—collection, storage, analysis—be meticulously recorded for review [1]. ASTM standards build on this legacy with specific, modern protocols:
+Forensic standards demand that evidence remains unaltered, is handled by competent professionals, and is fully documented to ensure ***reliability*** (results hold under scrutiny), ***repeatability*** (others can replicate the process), and ***admissibility*** (courts accept it as valid). The SWGDE/IOCE’s "Digital Evidence: Standards and Principles" (1999) set this foundation, requiring that actions during seizure not alter digital evidence, that only forensically competent individuals access originals, and that every step, collection, storage, analysis, be meticulously recorded for review [1]. ASTM standards build on this legacy with specific, modern protocols:
 
 - ***ASTM E1492-11 (2017) (Standard Practice for Receiving, Documenting, Storing, and Retrieving Evidence in a Forensic Science Laboratory)***: This standard outlines laboratory practices for receiving, documenting, and storing evidence, ensuring it stays pristine and traceable through a chain of custody—vital for reliability and admissibility in court. It mandates detailed logs of who handled the evidence, when, and ***<u>how</u>***, so any alteration is flagged early. <br><br>
 
-- ***ASTM E3016-18 (Standard Guide for Establishing Confidence in Digital and Multimedia Evidence Forensic Results by Error Mitigation Analysis)***: Provides a guide for establishing confidence in digital and multimedia forensic results via error mitigation analysis. It requires competent examiners to assess uncertainties (e.g., AI-generated artifacts), ensuring reliability through validated methods and repeatability by documenting steps others can follow—***key for legal trust.*** <br><br>
+- ***ASTM E3016-18 (Standard Guide for Establishing Confidence in Digital and Multimedia Evidence Forensic Results by Error Mitigation Analysis)***: Provides a guide for establishing confidence in digital and multimedia forensic results via error mitigation analysis. It requires competent examiners to assess uncertainties (e.g., AI-generated artifacts), ensuring reliability through validated methods and repeatability by documenting steps others can follow, ***key for legal trust.*** <br><br>
 
-- ***ASTM E3150-18 (Standard Guide for Forensic Audio Laboratory Setup and Maintenance)***: A guide that outlines essential principles for establishing and maintaining forensic audio laboratories. These include ensuring original evidence integrity, employing qualified specialists as appropriate, and documenting all processes comprehensively. While the standard explicitly focuses on forensic audio, its foundational principles—such as preserving evidence authenticity, practitioner competency, and rigorous documentation—are universally applicable to other types of multimedia evidence, including video and still images. These shared principles reinforce the consistency and reliability required in all multimedia forensic examinations, aligning with the broader frameworks established by SWGDE and IOCE. <br><br>
+- ***ASTM E3150-18 (Standard Guide for Forensic Audio Laboratory Setup and Maintenance)***: A guide that outlines essential principles for establishing and maintaining forensic audio laboratories. These include ensuring original evidence integrity, employing qualified specialists as appropriate, and documenting all processes comprehensively. While the standard explicitly focuses on forensic audio, its foundational principles, such as preserving evidence authenticity, practitioner competency, and rigorous documentation, are universally applicable to other types of multimedia evidence, including video and still images. These shared principles reinforce the consistency and reliability required in all multimedia forensic examinations, aligning with the broader frameworks established by SWGDE and IOCE. <br><br>
 
 - ***ASTM E1188-23 (Standard Practice for Collection and Preservation of Information and Physical Items by a Technical Investigator)***: This standard governs technical investigators' collection and preservation of information and physical evidence. It emphasizes the need for timely capture and preservation of evidence to prevent degradation or loss. Additionally, it underscores the importance of maintaining comprehensive records throughout the process to ensure that the evidence remains reliable, repeatable, and legally defensible.
 
-Washington’s Frye standard introduces an additional layer by requiring that novel scientific techniques, such as AI-based enhancements—be generally accepted within the relevant forensic community to be admissible (Frye v. United States, 1923). This requirement ensures that only scientifically validated methodologies are presented in court. With other evidentiary standards, Frye forms a rigorous benchmark for the admissibility of courtroom evidence [5].
+Washington’s Frye standard introduces an additional layer by requiring that novel scientific techniques, such as AI-based enhancements, be generally accepted within the relevant forensic community to be admissible (Frye v. United States, 1923). This requirement ensures that only scientifically validated methodologies are presented in court. With other evidentiary standards, Frye forms a rigorous benchmark for the admissibility of courtroom evidence [5].
 
 ***Analysis:*** 
 In State of Washington v. Puloka (2024) [2], the court rejected the defense's AI-enhanced video as it relied on proprietary machine-learning algorithms, introducing additional pixels, altering details, and removing artifacts from the original footage, a process described by the state's forensic video expert as unreviewed and irreproducible by forensic standards. The nebulous methods behind these enhancements undermined transparency and reliability, making forensic analysis impossible. Under Washington's Frye standard, the AI tools were deemed "novel techniques" that lacked general acceptance in the forensic video analysis community.
@@ -77,7 +77,7 @@ Establishing precise definitions:
 
 ***Note:*** These categories are not rigidly exclusive; they often intersect. This delineation aims to clarify and foster specialized approaches while recognizing their collaborative interplay.
   
-Why split them? Forensic science is the foundational cornerstone of our work; digital forensics constructs the investigative structures, and multimedia forensics refines the details within, ensuring clarity and authenticity. For example, blood spatter analysis provides one narrative, data recovered from a hard drive reveals another, and identifying tampered multimedia evidence—such as alterations in photographs—falls squarely within the purview of multimedia forensics.
+Why split them? Forensic science is the foundational cornerstone of our work; digital forensics constructs the investigative structures, and multimedia forensics refines the details within, ensuring clarity and authenticity. For example, blood spatter analysis provides one narrative, data recovered from a hard drive reveals another, and identifying tampered multimedia evidence, such as alterations in photographs, falls squarely within the purview of multimedia forensics.
 
 These definitions provide a framework for understanding how forensic disciplines interact, ensuring specialization and collaboration in addressing increasingly complex challenges.
 
@@ -85,7 +85,7 @@ These definitions provide a framework for understanding how forensic disciplines
 
 #### The Standards Landscape: Who is Setting the Rules?
 
-Standards do not grow on trees, standards development organizations (SDO) craft them, which are the backbone of multimedia forensics. It started with pioneers like the Scientific Working Group on Digital Evidence (SWGDE) and the International Organization on Computer Evidence (IOCE), whose 1999 "Digital Evidence: Standards and Principles" laid early tracks for handling digital chaos—think floppy disks to first-gen internet files [1]. Building on the groundwork laid by SWGDE and IOCE, modern standards development organizations have expanded these principles to address the complexity of today's digital evidence landscape.
+Standards do not grow on trees, standards development organizations (SDO) craft them, which are the backbone of multimedia forensics. It started with pioneers like the Scientific Working Group on Digital Evidence (SWGDE) and the International Organization on Computer Evidence (IOCE), whose 1999 "Digital Evidence: Standards and Principles" laid early tracks for handling digital chaos, think floppy disks to first-gen internet files [1]. Building on the groundwork laid by SWGDE and IOCE, modern standards development organizations have expanded these principles to address the complexity of today's digital evidence landscape.
 
 - ***ISO (International Standards Organization)***: The global heavyweight known for its rigorous standards for lab accreditation (e.g., ISO/IEC 17025) and inspection processes, which underpin consistency and credibility in multimedia forensic practices worldwide. <br><br>
   
@@ -95,7 +95,7 @@ Standards do not grow on trees, standards development organizations (SDO) craft 
 
 - ***CIGIE (Council of the Inspectors General on Integrity and Efficiency)***: Focused on the U.S. federal government, CIGIE establishes forensic guidelines critical for cases within the Inspector General domain, ensuring integrity and reliability in government investigations.
 
-These groups do not always align perfectly, ISO's theoretical focus contrasts with ASTM's practical approach—but together, they establish guardrails that prevent forensics from devolving into inconsistency. Think of cases where sloppy evidence tanked a trial, like a mishandled video or a lost chain of custody. From its 1999 origins to today, standards remain a shield against chaos, providing forensic practitioners with the structured guidance needed to navigate the ever-changing landscape of digital and multimedia evidence.
+These groups do not always align perfectly, ISO's theoretical focus contrasts with ASTM's practical approach, but together, they establish guardrails that prevent forensics from devolving into inconsistency. Think of cases where sloppy evidence tanked a trial, like a mishandled video or a lost chain of custody. From its 1999 origins to today, standards remain a shield against chaos, providing forensic practitioners with the structured guidance needed to navigate the ever-changing landscape of digital and multimedia evidence.
 
 ---
 
@@ -111,19 +111,19 @@ We have covered the why (justice hinges on trust), the what (forensic fields), a
 - **Repeatability:**  Forensics demands reproducibility. One expert's video analysis today should match another's tomorrow, using the same tools and steps. Standards lock in clear protocols, there is no room for lone geniuses.
 -- ***Referenced Standard:*** ASTM E2916-19e1 covers principles for analyzing digital and multimedia evidence, emphasizing repeatability. <br><br>
 
-- **Safeguarding Accuracy and Reliability:** Digital evidence, photos, videos, audio—must stay unaltered from collection to court unless changes are controlled, justified, and documented. When working copies must be modified, such as amplifying audio levels or adjusting image brightness, standards require precise documentation of every alteration to preserve evidential value. No added noise or artifacts should skew interpretation. Standards lean on write-blockers, hashes, and forensic controls to keep it legit.
+- **Safeguarding Accuracy and Reliability:** Digital evidence, photos, videos, audio, must stay unaltered from collection to court unless changes are controlled, justified, and documented. When working copies must be modified, such as amplifying audio levels or adjusting image brightness, standards require precise documentation of every alteration to preserve evidential value. No added noise or artifacts should skew interpretation. Standards lean on write-blockers, hashes, and forensic controls to keep it legit.
 -- ***Referenced Standard:*** ASTM E3150-18 provides information about preserving multimedia evidence integrity during analysis. <br><br>
 
 - **Testing Methods, Tools, and Techniques:** Trust comes from testing. Standards require forensic tools (e.g., video enhancers) and methods (e.g., metadata checks) to prove they work under fire. *Puloka's* AI flopped here, unvalidated tech does not cut it. This also applies to multimedia forensics tools like image enhancement software or noise suppression algorithms.
 -- ***Referenced Standard:*** ASTM E3016-18 provides information about preserving multimedia evidence integrity during analysis. <br><br>
 
-- **Documentation of All Actions:** Document every evidence touch—who, when, why, how—gets logged. It is not busywork; it is a shield against courtroom doubt. Without it, evidence crumbles.
+- **Documentation of All Actions:** Document every evidence touch—who, when, why, how, gets logged. It is not busywork; it is a shield against courtroom doubt. Without it, evidence crumbles.
 -- ***Referenced Standard:*** ASTM E1492-11(2017) mandates detailed logs for evidence handling. <br><br>
 
 - **Chain of Custody:** Proper documentation forms the foundation for maintaining an unbroken chain of custody. This principle secures the evidence from the crime scene to the courtroom. Who collected that USB drive? Where was it stored overnight? Standards require an unbroken record that prevents allegations of tampering. Without chain-of-custody documentation, even critical evidence might be dismissed as untrustworthy.
 -- ***Referenced Standard:*** ASTM E1459-13(2018) covers protocols for establishing and maintaining an unbroken chain of custody for digital evidence. <br><br>
 
-- **Forensically Sound Handling by Qualified Persons:** Any interaction with evidence—from enhancing a blurry image to recovering lost files, requires skilled professionals following accepted protocols. Forensic soundness isn't a buzzword; it guarantees that evidence remains credible. Standards from ASTM and ISO highlight this: no amateurs, no shortcuts.
+- **Forensically Sound Handling by Qualified Persons:** Any interaction with evidence, from enhancing a blurry image to recovering lost files, requires skilled professionals following accepted protocols. Forensic soundness isn't a buzzword; it guarantees that evidence remains credible. Standards from ASTM and ISO highlight this: no amateurs, no shortcuts.
 -- ***Referenced Standard:*** ASTM E3016-18 discusses qualified personnel processing multimedia evidence. <br><br>
 
 - **Transparency in Methodology and Results:** Forensic findings must be accompanied by full disclosure of the methods and assumptions used. Transparency enables critical evaluation and builds trust among forensic experts and legal practitioners.
@@ -147,7 +147,7 @@ We have covered the why (justice hinges on trust), the what (forensic fields), a
 - **Validation Across Diverse Contexts**: Multimedia forensic methods must demonstrate reliability across a variety of file formats, compression levels, and manipulation techniques to ensure their effectiveness in diverse scenarios.
 -- ***Referenced Standard***: ASTM E3016-18 emphasizes the importance of adaptability in validation processes, ensuring forensic methods are robust and capable of addressing the unique challenges posed by multimedia evidence.
 
-These are not random checkboxes, they are the glue across forensic science, digital forensics, and our multimedia corner. SWGDE/IOCE kicked it off in 1999 with "do not change it, document it, be competent." ISO 17025 demands it for labs. They all sing the same tune: evidence you can bank on, from seizure to sentencing. Without these, we are just guessing—and justice does not roll the dice.
+These are not random checkboxes, they are the glue across forensic science, digital forensics, and our multimedia corner. SWGDE/IOCE kicked it off in 1999 with "do not change it, document it, be competent." ISO 17025 demands it for labs. They all sing the same tune: evidence you can bank on, from seizure to sentencing. Without these, we are just guessing, and justice does not roll the dice.
 
 ---
 
@@ -160,7 +160,7 @@ These standards are critical for multimedia evidence, but here is the rub: writt
 
 Can they handle 2025's cloud-stored deepfakes? The gaps are starting to show. Deepfakes, for example, push the boundaries of existing frameworks. These highly sophisticated, AI-generated forgeries require new methodologies for authentication and analysis, yet ISO's current standards do not explicitly address these complexities.
 
-Non-compliance with ISO/IEC 17025 can have serious consequences, such as raising doubts about the reliability of a lab's processes or the competence of its staff. This, in turn, can lead to evidence being challenged or even excluded from court proceedings. For forensic labs, maintaining accreditation under these standards is critical—one compliance lapse could undermine an entire investigation and compromise the credibility of the evidence presented.
+Non-compliance with ISO/IEC 17025 can have serious consequences, such as raising doubts about the reliability of a lab's processes or the competence of its staff. This, in turn, can lead to evidence being challenged or even excluded from court proceedings. For forensic labs, maintaining accreditation under these standards is critical, one compliance lapse could undermine an entire investigation and compromise the credibility of the evidence presented.
 
 Standards are not optional, they are survival. As technology evolves, multimedia forensics requires specialized guidelines tailored to digital complexities. Collaborative efforts among standards organizations will ensure the field keeps pace with emerging challenges like deepfakes and cloud-based evidence.
 
@@ -169,7 +169,7 @@ Standards are not optional, they are survival. As technology evolves, multimedia
 #### ASTM’s General Forensic Roots
 ASTM lays foundational rules that multimedia forensics builds on:
 
-- **E620-18:** Report opinions—like stating an audio file is inconsistent with an original audio recording. <br><br>
+- **E620-18:** Report opinions, like stating an audio file is inconsistent with an original audio recording. <br><br>
 - **E860-22:** Examine and interpret evidence. Example: inspecting a questionable photo for manipulation.<br><br>
 - **E1188-11:** Ensure thorough documentation of the recording device at the scene, especially if the device cannot be physically collected. This step is critical for maintaining the integrity and traceability of the video evidence.
  
@@ -192,14 +192,14 @@ CIGIE’s *Quality Standards for Digital Forensics* guide federal cases within t
 
 - **Peer Review:** Collaborative examination ensures reliable and defensible findings, with multiple experts verifying forensic analyses to eliminate inconsistencies.
 
-CIGIE’s standards are practical, though less detailed than ASTM’s, and work well for multimedia evidence in federal investigations. However, they overlook critical challenges emerging technologies pose, such as deepfakes and cloud-stored evidence—leaving federal investigators to navigate uncharted territory without clear guidance.
+CIGIE’s standards are practical, though less detailed than ASTM’s, and work well for multimedia evidence in federal investigations. However, they overlook critical challenges emerging technologies pose, such as deepfakes and cloud-stored evidence, leaving federal investigators to navigate uncharted territory without clear guidance.
 
 CIGIE’s standards must adapt as technology evolves to address these emerging complexities. Strengthening its focus on multimedia forensics could help meet the demands of increasingly sophisticated evidence and analytical tools.
 
 ---
 
 #### Bridging to Multimedia: The Digital Wild West
-Multimedia forensics is not just digital—it is a tech battlefield. Compression artifacts make YouTube videos tricky. Deepfakes fool the eye. Metadata gets faked or stripped. General standards like E860-22 provide foundational guidelines but fall short when addressing the intricacies of MP4 codecs, AI-generated manipulations, or metadata authenticity. Deepfakes, in particular, present a unique challenge, without validated standards for their analysis, courts may struggle to assess their admissibility and authenticity.
+Multimedia forensics is not just digital, it is a tech battlefield. Compression artifacts make YouTube videos tricky. Deepfakes fool the eye. Metadata gets faked or stripped. General standards like E860-22 provide foundational guidelines but fall short when addressing the intricacies of MP4 codecs, AI-generated manipulations, or metadata authenticity. Deepfakes, in particular, present a unique challenge, without validated standards for their analysis, courts may struggle to assess their admissibility and authenticity.
 
 The current landscape demands specialized rules tailored to these digital complexities. Collaboration among standards organizations is essential to developing robust frameworks for multimedia forensics needs. Without these tailored standards, multimedia forensics risks losing credibility and reliability in the face of rapid technological advancements.
 
@@ -236,9 +236,9 @@ Together, these principles and goals form the backbone of multimedia forensics, 
 #### Beyond the Basics: Emerging Principles
 New frontiers push multimedia forensics:  
 
-- **Error Rates:** Tools need uncertainty stats—5% false positives on deepfakes? Show it. Error rates are critical for establishing the credibility of forensic tools. Courts and investigators risk relying on methods that produce inconsistent or unreliable results without these metrics. <br><br>
-- **Reproducibility:** Two labs, same video, same edits—or it’s suspect. Reproducibility ensures that two labs analyzing the same video under identical conditions can achieve consistent results—an essential factor for admissibility in court and trust in forensic methodologies.  <br><br>
-- **Bias Mitigation:** Human bias sees what it wants, while AI misflags faces—standards like E3016-18 fight both. Bias mitigation addresses both human and algorithmic bias. While human examiners may unconsciously see what they expect, poorly trained AI can produce false positives due to biased datasets or inadequate validation. Standards like E3016-18 aim to address both challenges, creating more objective processes.  
+- **Error Rates:** Tools need uncertainty stats, 5% false positives on deepfakes? Show it. Error rates are critical for establishing the credibility of forensic tools. Courts and investigators risk relying on methods that produce inconsistent or unreliable results without these metrics. <br><br>
+- **Reproducibility:** Two labs, same video, same edits, or it’s suspect. Reproducibility ensures that two labs analyzing the same video under identical conditions can achieve consistent results, an essential factor for admissibility in court and trust in forensic methodologies.  <br><br>
+- **Bias Mitigation:** Human bias sees what it wants, while AI misflags faces, standards like E3016-18 fight both. Bias mitigation addresses both human and algorithmic bias. While human examiners may unconsciously see what they expect, poorly trained AI can produce false positives due to biased datasets or inadequate validation. Standards like E3016-18 aim to address both challenges, creating more objective processes.  
 
 In 2020, Robert Williams' arrest, a Black man wrongly identified by faulty facial recognition, collapsed from bias, underscoring the critical need for more substantial standards. For a closer look at the real-world impact of bias in forensic tools, explore the details in https://www.aclu.org/press-releases/michigan-father-sues-detroit-police-department-wrongful-arrest-based-faulty-facial
 
