@@ -59,7 +59,7 @@ In State of Washington v. Puloka (2024) [2], the court rejected the defense's AI
 ***Conclusion:*** 
 The judge in the case dismissed the AI-enhanced video, deeming it unreliable, unrepeatable, and inadmissible. This reaffirms the critical need for transparency, reproducibility, and adherence to standards like those established by SWGDE/IOCE in forensic science.
 
-> **Forensic Perspective**
+> **Forensic Perspective** <br>
 > This IRAC analysis is framed within forensic science, not legal doctrine. While IRAC is traditionally a legal framework, I have structured this assessment to align with forensic integrity principles and present technical considerations in a way useful for attorneys. My role as a forensic scientist is to evaluate authenticity and technical reliability, not to make legal conclusions.
 
 Want more? The full opinion is not online, but [Greenberg Traurig’s analysis](https://www.gtlaw.com/en/insights/2024/5/washington-court-rejects-novel-use-of-ai-enhanced-video-in-trial) breaks it down from a legal perspective.  
