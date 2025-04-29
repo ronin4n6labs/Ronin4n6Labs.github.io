@@ -41,7 +41,7 @@ Here is the IRAC breakdown (***Issue, Rule, Application, Conclusion***) of the A
 Can AI-enhanced video pass forensic muster in court?
 
 ***Rule:*** 
-Forensic standards demand that evidence remains unaltered, is handled by competent professionals, and is fully documented to ensure ***reliability*** (results hold under scrutiny), ***repeatability*** (others can replicate the process), and ***admissibility*** (courts accept it as valid). The SWGDE/IOCE’s "Digital Evidence: Standards and Principles" (1999) set this foundation, requiring that actions during seizure not alter digital evidence, that only forensically competent individuals access originals, and that every step, collection, storage, analysis, be meticulously recorded for review [1]. ASTM standards build on this legacy with specific, modern protocols:
+Forensic standards demand that evidence remains unaltered, is handled by competent professionals, and is fully documented to ensure ***reliability*** (results hold under scrutiny), ***repeatability*** (others can replicate the process), and ***admissibility*** (courts accept it as valid). The SWGDE/IOCE’s "Digital Evidence: Standards and Principles" (1999) set this foundation, requiring that actions during seizure not alter digital evidence, that only forensically competent individuals access originals, and that every step, collection, storage, analysis, be meticulously recorded for review [1]. American Society for Testing and Materials (ASTM) standards build on this legacy with specific, modern protocols:
 
 - ***ASTM E1492-11 (2017) (Standard Practice for Receiving, Documenting, Storing, and Retrieving Evidence in a Forensic Science Laboratory)***: This standard outlines laboratory practices for receiving, documenting, and storing evidence, ensuring it stays pristine and traceable through a chain of custody—vital for reliability and admissibility in court. It mandates detailed logs of who handled the evidence, when, and ***<u>how</u>***, so any alteration is flagged early. <br><br>
 
@@ -59,7 +59,12 @@ In State of Washington v. Puloka (2024) [2], the court rejected the defense's AI
 ***Conclusion:*** 
 The judge in the case dismissed the AI-enhanced video, deeming it unreliable, unrepeatable, and inadmissible. This reaffirms the critical need for transparency, reproducibility, and adherence to standards like those established by SWGDE/IOCE in forensic science.
 
-Want more? The full opinion is not online, but [Greenberg Traurig’s analysis](https://www.gtlaw.com/en/insights/2024/5/washington-court-rejects-novel-use-of-ai-enhanced-video-in-trial) breaks it down.  Without standards, a tampered video could sway a jury, and as we have heard before,  ***"justice hangs in the balance."***
+> **Forensic Perspective**
+> This IRAC analysis is framed within forensic science, not legal doctrine. While IRAC is traditionally a legal framework, I have structured this assessment to align with forensic integrity principles and present technical considerations in a way useful for attorneys. My role as a forensic scientist is to evaluate authenticity and technical reliability, not to make legal conclusions.
+
+Want more? The full opinion is not online, but [Greenberg Traurig’s analysis](https://www.gtlaw.com/en/insights/2024/5/washington-court-rejects-novel-use-of-ai-enhanced-video-in-trial) breaks it down from a legal perspective.  
+
+Without standards, a tampered video could sway a jury, and as we have heard before,  ***"justice hangs in the balance."***
 
 ---
 
