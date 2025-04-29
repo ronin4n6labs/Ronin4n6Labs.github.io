@@ -19,8 +19,13 @@ In forensic science, investigations typically begin along one of two paths:
 
 Both paths require a **methodical, evidence-driven approach**, whether the goal is courtroom defense or peer-reviewed publication.
 
-To illustrate, consider a simple research question (RQ):  
-> *"Does uploading an image to Google Drive alter its integrity?"*  
+**Illustrative Example: A Running Research Topic** <br>
+To explore key principles in this post, we will use the following basic research question (RQ) as a working example thoughtout this post:
+
+
+> **Simple Research Question:** 
+> 
+> "Does uploading an image to Google Drive alter its integrity?"  
 
 A **forensic examiner** may need to verify file authenticity during litigation, while a **researcher** may seek to assess cloud storage’s impact on digital evidence preservation.
 
@@ -35,40 +40,69 @@ A strong **research question (RQ)** sets the foundation for any forensic study. 
 **A good forensic RQ should be:**
 
 - **Specific and Clear**  
-  - Broad questions create confusion. Narrow the focus.  
-  - Example refinement:  
-    > *"What happens to a JPEG image when uploaded to Google Drive?"*
+  - Broad questions create ambiguity and hinder precise conclusions. Refining the scope ensures focused analysis.
 
-- **Forensically Relevant**  
-  - The question must contribute meaningfully to forensic science or practice.  
-  - Further refinement:  
-    > *"Does uploading a JPEG image to Google Drive alter its original integrity?"*
+    > **Example Refinement of RQ:**<br>
+    > "What happens to a JPEG image when uploaded to Google Drive?"
 
-- **Investigable**  
-  - There must be a clear, systematic method to gather and analyze evidence.
+By narrowing our focus from any image type to JPEG (Joint Photographic Experts Group) images, we enhance clarity and enable targeted forensic methodologies such as hash comparisons, metadata analysis, and image integrity assessments. This specificity ensures that findings are relevant and reproducible within forensic science.
 
-With a specific and forensically relevant RQ, we next ensure we can test it, requiring appropriate forensic measurement tools.
+
+- **Ensuring a Forensically Relevant and Investigable Research Question** 
+   
+  A strong forensic research question (RQ) must:
+
+  - **Be Forensically Relevant**
+
+    The question should contribute meaningfully to forensic science and practical investigations. 
+ 
+    > **Further Refinement of RQ:**<br>
+    > "Does uploading a JPEG image to Google Drive alter its original integrity?"
+
+    This refinement focuses on a specific image type and addresses concerns in digital forensic analysis, where verifying authenticity and detecting alterations are critical.
+
+
+  - **Be Investigable**  
+   A well-structured forensic RQ must allow for systematic evidence collection and analysis.
+
+   **Key Consideration:**
+
+     - *Can we measure a change to the uploaded image compared with the original image?* <br>
+  
+    - **Yes!** We can determine whether the uploaded image has changed and quantify those differences using forensic measurement techniques.
+
+
+With a focused and forensically relevant RQ, the next step is ensuring we have the right forensic tools to test it effectively. This requires selecting measurement methods like hash comparisons, metadata analysis, and image quality assessments.
+
 
 ---
 
-#### Forensic Tools for Testing Image Integrity
+### **Forensic Tools for Testing Image Integrity**  
 
-To evaluate whether a JPEG’s integrity is altered after upload/download from Google Drive, we will use:
+To systematically evaluate whether a JPEG’s integrity is altered after upload/download from Google Drive, we apply measurement-based forensic techniques. Some researchers refer to these tools as **measurement instruments**, a term commonly used in academia and clinical research to describe structured methods for gathering empirical data.  
 
-- **Hash Verification**  
-  - Generate cryptographic hashes (e.g., SHA-256, MD5) before and after upload to detect bit-level changes.
+#### **Verification Methods**  
+- **File Hash Verification**  
+  - Generate cryptographic hashes (e.g., SHA-256, MD5) before and after upload to detect bit-level changes.  
+- **Image Stream Hash Verification**  
+  - Generate cryptographic hashes (e.g., SHA-256, MD5) before and after upload to detect bit-level changes in image streams [1–2].  
 
-- **Pixel-Level Comparison Metrics** (full-reference metrics, since we have a control/original image):  
-  - **Pearson Correlation Coefficient (PCC)** — Measures similarity of pixel intensity distributions.  
-  - **Peak Signal-to-Noise Ratio (PSNR)** — Evaluates signal loss; higher values = greater similarity.  
-  - **Structural Similarity Index (SSIM)** — Assesses structural distortion with perceptual quality in mind.  
-  - **Multi-Scale Structural Similarity (MS-SSIM)** — A multi-resolution version of SSIM for deeper analysis.
+#### **Pixel-Level Comparison Metrics** 
+ Full-reference metrics, given a control/original image:
 
-These tools offer a structured, measurable way to assess forensic integrity.
+- **Pearson Correlation Coefficient (PCC)** — Measures similarity of pixel intensity distributions.  
+- **Peak Signal-to-Noise Ratio (PSNR)** — Evaluates signal loss; higher values = greater similarity.  
+- **Structural Similarity Index (SSIM)** — Assesses structural distortion with perceptual quality in mind.  
+- **Multi-Scale Structural Similarity (MS-SSIM)** — A multi-resolution version of SSIM for deeper analysis.  
+
+These **measurement instruments** ensure a structured, quantifiable approach to assessing forensic integrity, aligning with established scientific principles for detecting digital alterations.  
+
 
 ---
 
 #### Final Research Question
+
+So, we can finalize our research question in our example as follows:
 
 > *"Does uploading a JPEG image to Google Drive alter its original integrity?"*
 
@@ -138,7 +172,7 @@ When analyzing sources:
 - **Compare Methodologies** — Assess the strengths and weaknesses of prior approaches.
 - **Prioritize Forensic Relevance** — Ensure studies address digital evidence concerns, not just general computer science problems.
 
-> Important: Forensic adoption of new techniques (e.g., SSIM, MS-SSIM) often lags behind innovation. Be cautious not to dismiss newer methods solely because they’re not yet widespread.
+> **Important:** <br> Forensic adoption of new techniques (e.g., SSIM, MS-SSIM) often lags behind innovation. Be cautious not to dismiss newer methods solely because they’re not yet widespread.
 
 ---
 
@@ -460,7 +494,7 @@ By conducting **multiple controlled experiments**, forensic researchers ensure f
 
 #### **Moving Forward: Data Analysis & Descriptive Statistics**
 
-In the next post, we will transition into data analysis, where we systematically examine collected data using descriptive statistics to summarize findings. This will include:  
+In the next post, we will transition into more Methods & Materials, but with emphasis in data analysis, where we systematically examine collected data using descriptive statistics to summarize findings. This will include:  
 - Central tendency measures – Analyzing mean, median, and mode to determine patterns.  
 - Variability metrics – Exploring standard deviation and variance in forensic image integrity.  
 

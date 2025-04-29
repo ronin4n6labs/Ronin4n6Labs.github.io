@@ -35,7 +35,7 @@ This case shows why standards are not just rules, they safeguard justice when te
 
 ***Note:*** I do not have first-hand knowledge of the tool used or access to the court transcript. I can only base it off of 3rd party news reports.
 
-Here is the IRAC breakdown (***Issue, Rule, Application, Conclusion***), a structured approach often used in legal analysis to organize and evaluate issues systematically.
+Here is the IRAC breakdown (***Issue, Rule, Application, Conclusion***) of the AI enhancement issue.  What is an IRAC analysis? It is a structured approach often used in legal analysis to organize and evaluate issues systematically.
 
 ***Issue:*** 
 Can AI-enhanced video pass forensic muster in court?
@@ -103,20 +103,20 @@ These groups do not always align perfectly, ISO's theoretical focus contrasts wi
 
 We have covered the why (justice hinges on trust), the what (forensic fields), and the who (standards setters), but what unites it all? Whether it is a blood sample, a hard drive, or a TikTok video, forensics relies on fundamental principles shared across ISO, ASTM, SWGDE, and beyond. These are not just guidelines, they are the backbone of credible evidence. Let us break them down:
 
-- **Reliability:** Evidence must withstand intense scrutiny, scientific or legal. Results must be consistent and defensible whether matching DNA, authenticating metadata, or spotting manipulation in video evidence. Standards ensure methods are validated, as seen in *Puloka*, where an AI-based analysis was deemed unreliable and failed to meet forensic requirements.
+- **Reliability:** Evidence must withstand intense scrutiny, scientific or legal. Results must be consistent and defensible whether matching DNA, authenticating metadata, or spotting manipulation in video evidence. Standards ensure methods are validated, as seen in *Puloka*, where an AI-based analysis was deemed unreliable and failed to meet forensic requirements.<br><br>
   
     -- ***Referenced Standard:*** ASTM E2825-21, setting terms and principles for repeatable digital/multimedia analysis. <br><br>
  
 
-- **Repeatability:**  Forensics demands reproducibility. One expert's video analysis today should match another's tomorrow, using the same tools and steps. Standards lock in clear protocols, there is no room for lone geniuses.
+- **Repeatability:**  Forensics demands reproducibility. One expert's video analysis today should match another's tomorrow, using the same tools and steps. Standards lock in clear protocols, there is no room for lone geniuses.<br><br>
 
     -- ***Referenced Standard:*** ASTM E2916-19e1 covers principles for analyzing digital and multimedia evidence, emphasizing repeatability. <br><br>
 
-- **Safeguarding Accuracy and Reliability:** Digital evidence, photos, videos, audio, must stay unaltered from collection to court unless changes are controlled, justified, and documented. When working copies must be modified, such as amplifying audio levels or adjusting image brightness, standards require precise documentation of every alteration to preserve evidential value. No added noise or artifacts should skew interpretation. Standards lean on write-blockers, hashes, and forensic controls to keep it legit.
+- **Safeguarding Accuracy and Reliability:** Digital evidence, photos, videos, audio, must stay unaltered from collection to court unless changes are controlled, justified, and documented. When working copies must be modified, such as amplifying audio levels or adjusting image brightness, standards require precise documentation of every alteration to preserve evidential value. No added noise or artifacts should skew interpretation. Standards lean on write-blockers, hashes, and forensic controls to keep it legit.<br><br>
   
     -- ***Referenced Standard:*** ASTM E3150-18 provides information about preserving multimedia evidence integrity during analysis. <br><br>
 
-- **Testing Methods, Tools, and Techniques:** Trust comes from testing. Standards require forensic tools (e.g., video enhancers) and methods (e.g., metadata checks) to prove they work under fire. *Puloka's* AI flopped here, unvalidated tech does not cut it. This also applies to multimedia forensics tools like image enhancement software or noise suppression algorithms.
+- **Testing Methods, Tools, and Techniques:** Trust comes from testing. Standards require forensic tools (e.g., video enhancers) and methods (e.g., metadata checks) to prove they work under fire. *Puloka's* AI flopped here, unvalidated tech does not cut it. This also applies to multimedia forensics tools like image enhancement software or noise suppression algorithms.<br><br>
 
     -- ***Referenced Standard:*** ASTM E3016-18 provides information about preserving multimedia evidence integrity during analysis. <br><br>
 
@@ -151,10 +151,12 @@ We have covered the why (justice hinges on trust), the what (forensic fields), a
 - ***Competence and Validation:*** Only qualified forensic professionals should apply these methods, and the tools themselves must be validated (Section 5.3). No rogue AI or amateur guesses are acceptable. In forensic science, objectivity begins with proven expertise and validated technology, not reliance on non-transparent, black-box algorithms.<br><br>
 
 - **Training and Competency Verification**: Standards require forensic practitioners to engage in ongoing training and competency evaluations to ensure skillsets remain current and evidence handling remains proficient.
--- ***Referenced Standard***: ASTM E2917-19 outlines requirements for forensic training programs and evaluator competency verification.<br><br>
+  
+    -- ***Referenced Standard***: ASTM E2917-19 outlines requirements for forensic training programs and evaluator competency verification.<br><br>
 
 - **Independent Peer Review**: Peer review enhances credibility and accountability by ensuring forensic findings are scrutinized by unbiased experts. This process is critical for validating techniques and interpretations.
--- ***Referenced Standard***: ASTM E3016-18 supports analytical interpretation validation via independent review.<br><br>
+  
+    -- ***Referenced Standard***: ASTM E3016-18 supports analytical interpretation validation via independent review.<br><br>
 
 - **Validation Across Diverse Contexts**: Multimedia forensic methods must demonstrate reliability across a variety of file formats, compression levels, and manipulation techniques to ensure their effectiveness in diverse scenarios.
 
