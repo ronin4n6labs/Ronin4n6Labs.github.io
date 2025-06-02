@@ -9,7 +9,7 @@ categories: updates
 
 Let me offer you a new perspective on an old definition: *Multimedia forensics is collecting, analyzing, and preserving digital images, videos, audio, and related metadata for legal investigations. **It relies on robust statistical foundations to interpret and present evidence accurately and reliably.***
 
-Descriptive statistics provide the essential tools to summarize and understand multimedia evidence, such as images, video clips, audio files, and metadata. They also support forensic experts in identifying patterns, detecting anomalies, and presenting findings clearly to investigators or in court. By applying these statistical techniques to multimedia data, we ensure our conclusions about image or video authenticity, tampering, or compression effects are objective, defensible, and well-supported by the evidence. 
+Descriptive statistics provide the essential tools to summarize and understand multimedia evidence, as emphasized by Lucy in his comprehensive guide to statistical methods in forensic science [1]. They also support forensic experts in identifying patterns, detecting anomalies, and presenting findings clearly to investigators or in court. By applying these statistical techniques to multimedia data, we ensure our conclusions about image or video authenticity, tampering, or compression effects are objective, defensible, and well-supported by the evidence. 
 
 I wanted to begin a series of blog posts on statistics for digital and multimedia forensics. While the underlying statistical methods we will discuss are not unique to our field, I aim to emphasize how these standard statistical tools are vital for digital and multimedia forensic sciences while helping experts make sense of complex evidence and communicate their findings with confidence.
 
@@ -29,7 +29,7 @@ We typically present our descriptive statistics in the Results Section of a rese
 
 **Figure 1** Example of Descriptive Statistics
 
-It’s important to note that this approach is not limited to academic research. In forensic practice, descriptive statistics are also used in examination reports to objectively summarize evidence, communicate findings clearly, and support expert conclusions. Whether you’re writing a research article or a forensic examination report, descriptive statistics help ensure your results are transparent, understandable, and defensible.
+It’s important to note that this approach is not limited to academic research. In forensic practice, descriptive statistics are also used in examination reports to objectively summarize evidence, communicate findings clearly, and support expert conclusions, a practice underscored by Aitken and Taroni in their discussion on the evaluation of forensic evidence [2]. Whether you’re writing a research article or a forensic examination report, descriptive statistics help ensure your results are transparent, understandable, and defensible.
 
 Now that we’ve seen an example of descriptive statistics in action (Figure 1) let’s examine each statistic in more detail and consider how it contributes to our understanding of the data.
 
@@ -132,3 +132,10 @@ In this hands-on example, we calculated and reported the basic descriptive stati
 In the Discussion section, we would then dig deeper into the meaning of these statistics, exploring what they reveal about the data’s central tendency, variability, and distribution. We will expand on these descriptive findings to further enhance our understanding by visualizing the data using box plots (to highlight range and IQR) and bell curves (to illustrate skewness, variance, and kurtosis). These visual tools help reveal patterns and outliers that simple numerical summaries may not fully capture.
 
 Stay tuned for our next post, where we will explore these advanced descriptive statistics and data visualization techniques!
+
+---
+### References
+
+[1] Lucy, D. (2005). Introduction to statistics for forensic scientists. John Wiley & Sons.
+
+[2]  Aitken, C., & Taroni, F. (2004). Statistics and the evaluation of evidence for forensic scientists (2nd ed.). Wiley. https://doi.org/10.1002/0470011238
