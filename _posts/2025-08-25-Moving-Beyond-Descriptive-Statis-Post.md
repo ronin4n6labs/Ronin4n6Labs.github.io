@@ -338,42 +338,28 @@ Skewness is a way to describe how data is spread out—specifically, whether it 
 
 **Summary Table**
 
-<div class="table-wrapper">
-  <table>
-    <thead>
-      <tr>
-        <th>Type of Skewness</th>
-        <th>Shape of Data</th>
-        <th>Real-Life Example</th>
-        <th>Statistical Pattern</th>
-        <th>Watch-Outs</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Balanced (Zero Skew)</td>
-        <td>Even on both sides</td>
-        <td>Adult heights</td>
-        <td>Mean ≈ Median ≈ Mode</td>
-        <td>Central tendency is reliable</td>
-      </tr>
-      <tr>
-        <td>Right Skewed (Positive)</td>
-        <td>Tail extends to the right</td>
-        <td>Incomes</td>
-        <td>Mean > Median</td>
-        <td>Mean exaggerates central tendency</td>
-      </tr>
-      <tr>
-        <td>Left Skewed (Negative)</td>
-        <td>Tail extends to the left</td>
-        <td>Retirement ages</td>
-        <td>Mean < Median</td>
-        <td>Mean underrepresents central tendency</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+.table-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+}
+
+.table-wrapper th,
+.table-wrapper td {
+  border: 1px solid #ccc;
+  padding: 0.5em;
+  text-align: left;
+}
+
+.table-wrapper th {
+  background-color: #f5f5f5;
+}
+
+@media screen and (max-width: 600px) {
+  .table-wrapper {
+    overflow-x: auto;
+  }
+}
 
 ***Table 5 – Skewness Summary Table***
 
