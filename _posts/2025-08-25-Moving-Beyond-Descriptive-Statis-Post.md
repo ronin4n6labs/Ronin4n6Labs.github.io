@@ -36,7 +36,9 @@ In my previous blog post you may remember that I offered the following raw stati
 
 If we run the descriptive statstics on this data you would have a descriptive statistics report like the following:
 
-<p align="center"><img src="images/Descriptive-Stats-Report-Example.png" width="500" /></p>
+<p align="center">
+  <img src="/images/Descriptive-Stats-Report-Example.png" width="500" />
+</p>
 
 ***Figure 1 - Example of Descriptive Statistics Report***
 
