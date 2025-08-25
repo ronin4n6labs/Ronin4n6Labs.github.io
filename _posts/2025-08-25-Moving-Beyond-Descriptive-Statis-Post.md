@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Moving Beyond Descriptive Statistics"
-date: 2025-08-07 08:30:00
+date: 2025-08-25 08:30:00
 categories: updates
 ---
 
