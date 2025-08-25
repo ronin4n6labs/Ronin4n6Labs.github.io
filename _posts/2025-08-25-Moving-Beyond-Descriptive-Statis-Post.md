@@ -338,40 +338,23 @@ Skewness is a way to describe how data is spread out—specifically, whether it 
 
 **Summary Table**
 
-<table>
-  <thead>
-    <tr>
-      <th>Type of Skewness</th>
-      <th>Shape</th>
-      <th>Example</th>
-      <th>Pattern</th>
-      <th>Watch-Out</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Balanced (Zero Skew)</td>
-      <td>Even on both sides</td>
-      <td>Adult heights</td>
-      <td>Mean ≈ Median ≈ Mode</td>
-      <td>Reliable central tendency</td>
-    </tr>
-    <tr>
-      <td>Right Skewed (Positive)</td>
-      <td>Tail extends to the right</td>
-      <td>Incomes</td>
-      <td>Mean > Median</td>
-      <td>Mean exaggerates central tendency</td>
-    </tr>
-    <tr>
-      <td>Left Skewed (Negative)</td>
-      <td>Tail extends to the left</td>
-      <td>Retirement ages</td>
-      <td>Mean < Median</td>
-      <td>Mean underrepresents central tendency</td>
-    </tr>
-  </tbody>
-</table>
+#### Balanced (Zero Skew)
+- **Shape**: Even on both sides
+- **Example**: Adult heights
+- **Pattern**: Mean ≈ Median ≈ Mode
+- **Watch-Out**: Central tendency is reliable
+
+#### Right Skewed (Positive)
+- **Shape**: Tail extends to the right
+- **Example**: Incomes
+- **Pattern**: Mean > Median
+- **Watch-Out**: Mean exaggerates central tendency
+
+#### Left Skewed (Negative)
+- **Shape**: Tail extends to the left
+- **Example**: Retirement ages
+- **Pattern**: Mean < Median
+- **Watch-Out**: Mean underrepresents central tendency
 
 ***Table 5 – Skewness Summary Table***
 
