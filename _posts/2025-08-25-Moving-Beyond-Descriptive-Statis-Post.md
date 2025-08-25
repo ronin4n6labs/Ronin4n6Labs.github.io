@@ -337,11 +337,12 @@ Skewness is a way to describe how data is spread out—specifically, whether it 
 
 
 **Summary Table**
-| Type of Skewness       | Shape of Data     | Real-Life Example  | What to Watch Out For                |
-|------------------------|-------------------|-------------------|------------------------------------|
-| Balanced (Zero)         | Even on both sides| Adult heights     | Mean ≈ Median ≈ Mode                |
-| Right Skewed (Positive) | Tail to the right | Incomes           | Mean > Median; mean can mislead     |
-| Left Skewed (Negative)  | Tail to the left  | Retirement ages   | Mean < Median; mean can mislead     |
+
+| Type of Skewness         | Shape of Data             | Real-Life Example | Statistical Pattern        | Watch-Outs                             |
+|--------------------------|---------------------------|-------------------|----------------------------|----------------------------------------|
+| Balanced (Zero Skew)     | Even on both sides        | Adult heights     | Mean ≈ Median ≈ Mode       | Central tendency is reliable           |
+| Right Skewed (Positive)  | Tail extends to the right | Incomes           | Mean > Median              | Mean exaggerates central tendency      |
+| Left Skewed (Negative)   | Tail extends to the left  | Retirement ages   | Mean < Median              | Mean underrepresents central tendency  |
 
 ***Table 5 – Skewness Summary Table***
 
