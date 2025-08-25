@@ -50,7 +50,9 @@ However, before we show the visuals for this data set, let's understand what our
 ## Understanding the Box Plot with Whiskers
 The image below shows a box plot, a statistical chart designed to summarize a dataset’s key distribution features at a glance. 
 
-<p align="center"><img src="images/box-plot-example.png" width="500" /></p>
+<p align="center">
+  <img src="/images/box-plot-example.png" width="500" />
+</p>
 
 ***Figure 2 - Example of Box Plot with Whiskers***
 
@@ -124,7 +126,9 @@ This particular dataset’s box plot shows that:
 
 
 
-<p align="center"><img src="images/box-plot-outliers-example.png" width="500" /></p>
+<p align="center">
+  <img src="/images/box-plot-outliers-example.png" width="500" />
+</p>
 
 
 ***Figure 3 - Example of Box Plot with Whiskers and Outliers***
@@ -376,7 +380,9 @@ Most values are higher, but a few low values pull the tail left.
 Tail extends to the left, with most data toward the higher end numercally.  We can see that here, but let's visualize it.  
 
 
-<p align="center"><img src="images/Left-Skewed-Control-Data-2-plots.png" width="750" /></p>
+<p align="center">
+  <img src="/images/Left-Skewed-Control-Data-2-plots.png" width="750" />
+</p>
 
 ***Figure 4 - Example of Left Skewness with Histogram plus KDE and Baussian Curve plots***
 
@@ -436,7 +442,9 @@ Values are evenly distributed around the mean (close to zero).
 Appears balanced; mean approximately equals the median.
 
 
-<p align="center"><img src="images/Normal-Skewed-Control-Data-2-plots.png" width="750" /></p>
+<p align="center">
+  <img src="/images/Normal-Skewed-Control-Data-2-plots.png" width="750" />
+</p>
 
 ***Figure 6 - Example of No Skewness with Histogram plus KDE and Baussian Curve plots***
 
@@ -505,7 +513,9 @@ Most values are low, but a few high values pull the tail right.
 Tail extends to the right, with most data toward the lower end.
 
 
-<p align="center"><img src="images/Right-Skewed-Control-Data-2-plots.png" width="750" /></p>
+<p align="center">
+  <img src="/images/Right-Skewed-Control-Data-2-plots.png" width="750" />
+</p>
 
 ***Figure 8 - Example of No Skewness with Histogram plus KDE and Baussian Curve plots***
 
@@ -607,7 +617,9 @@ This means the data does not exhibit unusually heavy or light tails despite the 
 
 Visualizing these characteristics helps greatly to grasp this concept intuitively.
 
-<p align="center"><img src="images/Left-Kurtosis-Skewed-Control-Data-2-plots.png" width="750" /></p>
+<p align="center">
+  <img src="/images/Left-Kurtosis-Skewed-Control-Data-2-plots.png" width="750" />
+</p>
 
 ***Figure 10 - Example of Kurtosis and Left Skewness with Histogram plus KDE and Baussian Curve plots***
 
@@ -638,7 +650,9 @@ The excess kurtosis of -0.43 signifies that this dataset has lighter than normal
 
 Below, see Figure 11 for side-by-side plots illustrating the actual shape and tails of the balanced-skewness data.
 
-<p align="center"><img src="images/Balanced-Kurtosis-Skewed-Control-Data-2-plots.png" width="750" /></p>
+<p align="center">
+  <img src="/images/Balanced-Kurtosis-Skewed-Control-Data-2-plots.png" width="750" />
+</p>
 
 ***Figure 11 - Example of Kurtosis and Balanced Skewness with Histogram plus KDE and Baussian Curve plots***
 
@@ -671,7 +685,9 @@ With an excess kurtosis of -0.29, the dataset’s tails are lighter than those o
 
 Refer to Figure 12 below for side-by-side plots that illustrate the real-world distribution and tail behavior for this right-skewed dataset.
 
-<p align="center"><img src="images/Right-Kurtosis-Skewed-Control-Data-2-plots.png" width="750" /></p>
+<p align="center">
+  <img src="/images/Right-Kurtosis-Skewed-Control-Data-2-plots.png" width="750" />
+</p>
 
 ***Figure 12 - Example of Kurtosis and Right Skewness with Histogram plus KDE and Baussian Curve plots***
 
@@ -794,8 +810,9 @@ Building on our descriptive statistics from the special dataset introduced in th
   - **Above Upper Fence:** 0.9990
 
 
-<p align="center"><img src="images/boxplot_Data
-.png" width="500" /></p>
+<p align="center">
+  <img src="/images/boxplot_Data.png" width="500" />
+</p>
 
 ***Figure 13 - Descriptive Statistics Data Example with Box Plot of Data - Quartiles, Whiskers, IQR, and Outliers***
 
@@ -829,8 +846,9 @@ The skewness value of 0.52 falls just above the “slight skew” boundary, plac
 The kurtosis measure tells us that the dataset is leptokurtic—it has a sharper peak than a normal distribution and thicker tails. In practice, this means data values not only cluster more tightly around the center than normal (reinforcing our observation of an unusually narrow IQR) but also allow for more extreme points in the tails—precisely what our outliers illustrated.
 
 
-<p align="center"><img src="images/Descriptive-Stats-Data-figure14
-.png" width="750" /></p>
+<p align="center">
+  <img src="/images/Descriptive-Stats-Data-figure14.png" width="750" />
+</p>
 
 ***Figure 14 - Descriptive Statistics Data Example Combined Skewness & Kurtosis Visualization***
 
