@@ -338,11 +338,42 @@ Skewness is a way to describe how data is spread out—specifically, whether it 
 
 **Summary Table**
 
-| Type of Skewness         | Shape of Data             | Real-Life Example | Statistical Pattern        | Watch-Outs                             |
-|--------------------------|---------------------------|-------------------|----------------------------|----------------------------------------|
-| Balanced (Zero Skew)     | Even on both sides        | Adult heights     | Mean ≈ Median ≈ Mode       | Central tendency is reliable           |
-| Right Skewed (Positive)  | Tail extends to the right | Incomes           | Mean > Median              | Mean exaggerates central tendency      |
-| Left Skewed (Negative)   | Tail extends to the left  | Retirement ages   | Mean < Median              | Mean underrepresents central tendency  |
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th>Type of Skewness</th>
+        <th>Shape of Data</th>
+        <th>Real-Life Example</th>
+        <th>Statistical Pattern</th>
+        <th>Watch-Outs</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Balanced (Zero Skew)</td>
+        <td>Even on both sides</td>
+        <td>Adult heights</td>
+        <td>Mean ≈ Median ≈ Mode</td>
+        <td>Central tendency is reliable</td>
+      </tr>
+      <tr>
+        <td>Right Skewed (Positive)</td>
+        <td>Tail extends to the right</td>
+        <td>Incomes</td>
+        <td>Mean > Median</td>
+        <td>Mean exaggerates central tendency</td>
+      </tr>
+      <tr>
+        <td>Left Skewed (Negative)</td>
+        <td>Tail extends to the left</td>
+        <td>Retirement ages</td>
+        <td>Mean < Median</td>
+        <td>Mean underrepresents central tendency</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ***Table 5 – Skewness Summary Table***
 
