@@ -868,18 +868,20 @@ This special dataset, then, is not perfectly normal—it is slightly stretched t
 
 ---
 
-### Tools and Resources
+### 🔧 Tools and Resources
 
-To make this analysis reproducible and extendable, I’ve made both the special dataset and the Python scripts used in this post available on my GitHub repository:
+To make this analysis reproducible and extendable, I’ve made both the special dataset and the Python scripts used in this post available on my GitHub repository:  
+**[Descriptive Statistical Data Visualization Toolkit](https://github.com/ronin4n6labs/descriptive-statistical-data-visualization-toolkit)**
 
-- **Dataset:** data.csv (the special data we analyzed here)
+**Dataset**  
+- `data.csv` — the special data analyzed in this post
 
-- **Visualization Scripts:**
+**Visualization Scripts**  
+- `boxplot_data.py` — generates Figure 13 (annotated boxplot with outliers)  
+- `skew_kurtosis_combined.py` — generates Figure 14 (histogram, KDE, and Gaussian overlay)
 
-  - boxplot_data.py (generates Figure 13)
-  - skew_kurtosis_combined.py (generates Figure 14 with histogram, KDE, and Gaussian overlay)
+These resources allow you to experiment directly with the data, modify the scripts, or adapt them for your own projects. Since the scripts are lightweight and built around `matplotlib`, `pandas`, and `scipy`, they should run easily in most Python setups.
 
-These resources allow you to experiment directly with the data, modify the scripts, or adapt them for your own projects. Since the scripts are lightweight and built around matplotlib, pandas, and scipy, they should run easily in most Python setups.
 
 ---
 
