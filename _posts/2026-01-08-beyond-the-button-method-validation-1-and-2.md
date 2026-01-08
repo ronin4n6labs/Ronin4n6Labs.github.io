@@ -206,7 +206,7 @@ This series is dedicated to advancing forensic science through transparent, repr
 
 Forensic science moves forward not by consensus, but by evidence.
 
-he next post will walk through pilot testing and controlled data generation — the point where validation moves from planning to empirical reality.
+The next post will walk through pilot testing and controlled data generation — the point where validation moves from planning to empirical reality.
 
 ---
 
