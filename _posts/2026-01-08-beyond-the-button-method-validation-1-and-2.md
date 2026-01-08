@@ -5,7 +5,7 @@ date: 2026-01-08 15:00:00
 categories: method-validation
 ---
 
-# **Beyond the Button: Reclaiming Forensic Science Through Method Validation**
+## **Beyond the Button: Reclaiming Forensic Science Through Method Validation**
 
 If you want to be a push‑button examiner, someone who accepts whatever a digital or multimedia forensic tool outputs without questioning the method behind it, you’re not doing forensic science. You’re performing forensic theater. If you rely on interpretive instincts to decide whether an image has been altered, you’re not applying science, you’re applying art.
 
