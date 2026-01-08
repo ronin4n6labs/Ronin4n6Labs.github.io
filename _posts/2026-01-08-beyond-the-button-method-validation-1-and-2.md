@@ -25,7 +25,7 @@ This post begins a series walking through my Empirical Method Validation Framewo
 
 # Gap Analysis: What Our Search Revealed About the State of Method Validation
 
-Over the past several weeks, and especially in a concentrated deep‑dive this today, I ran a structured, multi‑engine search for digital and multimedia forensic **method validation** studies published from 2010 to the present. The goal was simple: find empirical work that reports diagnostic performance metrics or confusion matrices for forensic methods.
+Over the past several weeks, and especially in a concentrated deep‑dive today, I ran a structured, multi‑engine search for digital and multimedia forensic **method validation** studies published from 2010 to the present. The goal was simple: find empirical work that reports diagnostic performance metrics or confusion matrices for forensic methods.
 
 What we found was not encouraging.
 
