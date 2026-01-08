@@ -8,6 +8,8 @@ name: "Ronin4n6Labs Research Platform: Advancing Digital & Multimedia Forensics"
 # Short bio or description (displayed in the header)
 description: Independent (Ronin) Digital & Multimedia Forensic Researcher's Notebook & Thoughts
 
+theme: jekyll-theme-minimal
+
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/Ronin.jpg
 
