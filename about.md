@@ -4,34 +4,48 @@ title: About
 permalink: /about/
 ---
 
-I'm Gregory (Greg) Wales, an independent researcher specializing in digital and multimedia forensic sciences. With over 30 years of experience in digital forensic science and 15 years in multimedia forensic science, my background as a retired Special Agent and Digital Forensic Examiner provides a unique perspective to my research. I hold an undergraduate degree in Computer Forensics & Digital Investigations and graduate degrees in both Digital and Multimedia Forensic Science areas, and a Doctorate in Forensic Science, which forms the foundation of my academic knowledge.
+# About Ronin 4n6Labs
 
-My research philosophy centers on developing and validating multimedia forensic methods and tools to enhance the analysis of digital images, videos, and audio. This includes:
+**Ronin 4n6Labs** is the personal research identity of **Gregory S. Wales**, DFS, an independent digital and multimedia forensic scientist. Now retired and unaffiliated, I use this space to pursue open, transparent, and reproducible forensic science research without institutional constraints.
 
-- Advancing collection and pre-examination processing techniques
-- Developing robust verification methods
-- Exploring cross-platform analysis approaches
-- Investigating ways to mitigate cognitive bias in forensic examinations
+My work centers on:
 
-## More About My Research
+- **Independent forensic method validation**
+- **Digital and multimedia forensic research**
+- **Empirical testing of forensic workflows and procedures**
+- **Forensic ML method research, diagnostic behavior, and error‑rate characterization**
+- **Open‑source validation pipelines and reproducible documentation**
 
-I'm committed to advancing the field through rigorous, transparent, and reproducible methodologies. My goal is to contribute to the integrity and reliability of forensic evidence in legal and investigative contexts through innovative research.
+Ronin 4n6Labs is **not** a company, business, or service provider.  I do not take clients, offer services, sell products, or receive funding. My work is entirely independent and motivated solely by improving the scientific foundations of digital and multimedia forensic science. Ronin 4n6Labs is simply the banner under which I publish my independent research, validation studies, and open‑source tools.
 
-Key areas of my research include:
+---
 
-- Multimedia content verification techniques
-- Digital image, audio, and video forensics
-- Emerging technologies in multimedia forensics
+## Background
 
-Through this platform, I aim to share insights from my research, engage with the forensic community, and contribute to the ongoing advancement of forensic science. I'm excited to collaborate with fellow researchers and practitioners in pushing the boundaries of what's possible in digital and multimedia forensics.
+I’m Gregory (Greg) Wales, **a** retired federal law enforcement digital forensic examiner with over 30 years of experience in digital forensic science and more than 16 years in multimedia forensic science. I hold an undergraduate degree in *Computer Forensics & Digital Investigations*, graduate degrees in *Digital Forensic Science* and *Recording Arts with an emphasis in Multimedia Forensic Science*, and a *Doctor of Forensic Science (DFS)*. My background informs a research philosophy grounded in scientific rigor, empirical testing, and reproducible methodology.
 
-## Logo Credit:
+---
 
-The Ronin logo used on this site is from Behance.net, sourced from the "Samurai Concept" gallery: https://www.behance.net/gallery/25262027/Samurai-Concept.
+## About My Research
 
+My research focuses on the scientific reliability of digital and multimedia forensic methods. I work independently, without institutional or commercial influence, which allows me to examine forensic procedures with complete transparency and methodological rigor. My goal is to strengthen the scientific foundations of digital evidence by developing, testing, and validating methods that are reproducible, empirically grounded, and defensible in legal contexts.
 
+I emphasize **method validation**, not tool promotion. This includes evaluating the behavior, limitations, and diagnostic performance of forensic workflows themselves — particularly how they perform across platforms, conditions, and implementations. My work also extends into **forensic machine learning**, where I study model behavior, error characteristics, and the scientific requirements for explainability and reliability.
 
+Key themes in my research include:
 
-### Contact me
+- **Independent forensic method validation**
+- **Empirical testing of digital, multimedia, and forensic ML workflows**
+- **Cross‑platform and cross‑codec behavior in audio, image, and video evidence**
+- **Error‑rate characterization and diagnostic performance analysis**
+- **Transparent, reproducible, open‑source validation pipelines**
+- **Mitigating cognitive bias in forensic examinations**
+- **Understanding the scientific limits of emerging forensic technologies**
+
+Through Ronin 4n6Labs, I share research, tools, and validation studies that contribute to a more transparent and scientifically defensible future for digital and multimedia forensics.
+
+---
+
+### Contact
 
 [media4n6@gmail.com](mailto:media4n6@gmail.com)
