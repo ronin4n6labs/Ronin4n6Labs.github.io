@@ -22,7 +22,7 @@ Ronin 4n6Labs is **not** a company, business, or service provider. I do not take
 
 ## Background
 
-I’m Gregory (Greg) Wales, retired federal law enforcement and digital forensic examiner with over 30 years of experience in digital forensic science and more than 16 years in multimedia forensic science. I hold an undergraduate degree in *Computer Forensics & Digital Investigations*, graduate degrees in *Digital Forensic Science* and *Recording Arts with an emphasis in Multimedia Forensic Science*, and a *Doctor of Forensic Science (DFS)*. My background informs a research philosophy grounded in scientific rigor, empirical testing, and reproducible methodology.
+I’m Gregory (Greg) Wales, retired federal law enforcement and digital forensic examiner with over 30 years of experience in digital forensic science and more than 16 years in multimedia forensic science. I hold an undergraduate degree in *Computer Forensics & Digital Investigations*, graduate degrees in *Digital Forensic Science* and *Recording Arts with an emphasis in Multimedia Forensic Science*, and a *Doctor of Forensic Sciences (DFS)*. My background informs a research philosophy grounded in scientific rigor, empirical testing, and reproducible methodology.
 
 ---
 
