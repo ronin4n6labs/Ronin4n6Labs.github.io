@@ -22,7 +22,7 @@ Ronin 4n6Labs is **not** a company, business, or service provider. I do not take
 
 ## Background
 
-I’m Gregory (Greg) Wales, retired federal law enforcement and digital forensic examiner with over 30 years of experience in digital forensic science and more than 16 years in multimedia forensic science. I hold an undergraduate degree in *Computer Forensics & Digital Investigations*, graduate degrees in *Digital Forensic Science* and *Recording Arts with an emphasis in Multimedia Forensic Science*, and a *Doctor of Forensic Sciences (DFS)*. My background informs a research philosophy grounded in scientific rigor, empirical testing, and reproducible methodology.
+I’m Gregory (Greg) Wales, retired federal law enforcement and digital forensic examiner with over 30 years of experience in digital forensic science and more than 16 years in multimedia forensic science. I hold an undergraduate degree in *Computer Forensics & Digital Investigations*, graduate degrees in *Digital Forensic Science* and *Recording Arts with an emphasis in Multimedia Forensic Science*, and a *Doctor of Forensic Science (DFS)*. My background informs a research philosophy grounded in scientific rigor, empirical testing, and reproducible methodology.
 
 ---
 
@@ -56,7 +56,7 @@ Through Ronin 4n6Labs, I share research, tools, and validation studies that cont
 
 ## The Ronin Philosophy
 
-*The Ronin is a practitioner without a master — free to follow evidence, not agendas. Ronin 4n6Labs reflects that philosophy. I work independently so I can examine forensic methods with honesty, rigor, and transparency, unbound by institutional pressures or commercial interests. My goal is not to defend tools or promote technologies uncritically, but to understand the forensic methods they are intended to implement — to test those methods, evaluate their behavior, and document their strengths, limitations, and scientific reliability. Forensic science serves the courts and the public, and it deserves methods that are reproducible, validated, and scientifically sound. The Ronin path is straightforward: follow the data, expose the error sources, and let the science speak for itself. This approach defines how I structure my validation studies and evaluate forensic algorithms in practice.*
+*The Ronin is a practitioner without a master — free to follow evidence, not agendas. Ronin 4n6Labs reflects that philosophy. I work independently so I can examine forensic methods with honesty, rigor, and transparency, unbound by institutional pressures or commercial interests. My goal is not to defend tools or promote technologies without scientific scrutiny, but to understand the forensic methods they are intended to implement — to test those methods, evaluate their behavior, conduct empirical validation, and document their strengths, limitations, and scientific reliability. Forensic science serves the courts and the public, and it deserves methods that are reproducible, validated, and scientifically sound. The Ronin path is straightforward: follow the data, expose and characterize the error sources, and develop method controls that mitigate their impact — letting the science speak for itself. This approach defines how I structure my validation studies and evaluate forensic algorithms in practice.*
 
 ---
 
