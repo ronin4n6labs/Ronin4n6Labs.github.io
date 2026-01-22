@@ -9,7 +9,7 @@ categories: updates
 
 The rapid growth of synthetic audio has created understandable concern across legal, investigative, and forensic communities. With that concern has come a wave of articles, presentations, and commercial offerings claiming the ability to “detect AI‑generated audio.” One recent example is the Forensic Magazine article *“When Voices Lie: Detecting AI‑Generated Audio in a Courtroom.”* The piece raises important issues, but it also illustrates a broader challenge in this emerging space: **claims of capability are often made in the absence of validated forensic methods.**
 
-This post examines the article’s claims through the lens of **forensic standards**, **method validation**, and **scientific defensibility**, while maintaining a neutral and professional tone.
+This post examines the article’s claims through the lens of **forensic standards**, **method validation**, and **scientific defensibility**.
 
 ---
 
