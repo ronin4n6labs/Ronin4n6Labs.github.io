@@ -142,11 +142,11 @@ Forensic science earns trust not through confidence, but through **discipline**,
 - Federal Rule of Evidence 702  
 - *Daubert v. Merrell Dow Pharmaceuticals*, 509 U.S. 579 (1993)  
 - NIST IR 8354 Digital Investigative Techniques: A NIST Scientific Foundation Review (2022)  
-- **OSAC Forensic Science Standards:**  
+- OSAC Forensic Science Standards:  
 > – SWGDE 10‑A‑001‑3.3 *Core Competencies for Forensic Audio*  
-- **SWGDE Best Practices for Digital & Multimedia Evidence:**  
+- SWGDE Best Practices for Digital & Multimedia Evidence:  
 > – *Best Practices for Forensic Audio*  
-> - *SWGDE Best Practices for Forensic Audio Authentication*
+> – *SWGDE Best Practices for Forensic Audio Authentication*
 
 
 **Article Discussed**  
