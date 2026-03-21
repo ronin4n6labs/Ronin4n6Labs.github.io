@@ -158,111 +158,112 @@ Power analysis addresses the **probability** of detecting a meaningful effect. I
 
 ---
 
-> ## Scenario: Power Analysis for the AAC→PCM Transcoding Scenario
-> >
-> > To design a defensible validation study, each AAC→PCM test item is treated as a **binary diagnostic outcome**:
-> >
-> > - **Success:** All three metrics meet their acceptance thresholds  
-> >   - $\text{PCC} \ge 0.95$  
-> >   - $\text{MQD} \le 200$  
-> >   - $\text{LTASS deviation} \le 2 \text{ dB}$  
-> >
-> > - **Failure:** Any threshold is violated  
-> >
-> > This converts the study into a **binomial proportion problem**, where each file either passes or fails the method’s acceptance criteria.
-> >
-> > ---
-> >
-> > ### **Defining the Effect Size**
-> >
-> > For forensic use, the method must succeed on **at least 99%** of files:
-> >
-> > $$
-> > p_{\text{acceptable}} = 0.99
-> > $$
-> >
-> > We want enough statistical power to detect if the true success rate is **95% or lower**:
-> >
-> > $$
-> > p_{\text{unacceptable}} = 0.95
-> > $$
-> >
-> > The effect size is the difference:
-> >
-> > $$
-> > \Delta p = p_{\text{acceptable}} - p_{\text{unacceptable}} = 0.04
-> > $$
-> >
-> > This is the smallest performance drop considered meaningful for forensic decision‑making.
-> >
-> > ---
-> >
-> > ### **Hypotheses for Power Analysis**
-> >
-> > $$
-> > H_0: p \ge 0.99 \quad \text{(method meets required performance)}
-> > $$
-> >
-> > $$
-> > H_a: p \le 0.95 \quad \text{(method fails to meet required performance)}
-> > $$
-> >
-> > This is a **one‑sided** test because we only care about detecting under‑performance (failure).
-> >
-> > ---
-> >
-> > ### **Error Rates and Power Target**
-> >
-> > Following the JFS framework:
-> >
-> > - **Type I error:** $\alpha = 0.05$  
-> > - **Power:** $1 - \beta = 0.95$  
-> >
-> > This ensures a $\ge 95\%$ probability of detecting a method that performs at or below $p = 0.95$.
-> >
-> > ---
-> >
-> > ### **Determining the Required Sample Size**
-> >
-> > Most readers don’t start from power formulas; they start from a practical question:
-> >
-> > > “How many original–questioned (O–Q) file pairs do I need per condition so this study isn’t a toy?”
-> >
-> > In this framework, each test item is one **O–Q pair**:
-> >
-> > > original PCM WAV → AAC (M4A) → questioned PCM WAV
-> >
-> > Each pair is classified as **success** (all thresholds met) or **failure** (any threshold violated). The power analysis operates on these success/failure outcomes.
-> >
-> > For a typical AAC→PCM study with a modest number of conditions (for example, several bitrates and one or two sampling rates), a **good planning rule** is:
-> >
-> > > **Aim for about 20–25 O–Q file pairs per condition.**
-> >
-> > #### Example: 4 bitrates × 2 sampling rates
-> >
-> > Suppose the study varies:
-> >
-> > - 4 bitrates  
-> > - 2 sampling rates  
-> >
-> > This produces:
-> >
-> > - 4 × 2 = 8 conditions (cells)
-> >
-> > Planning for **21 O–Q pairs per condition** yields:
-> >
-> > - 21 pairs × 8 conditions = 168 O–Q comparisons in total
-> >
-> > From the statistical side, a one‑sided binomial power analysis with
-> >
-> > - target success rate $p_{\text{acceptable}} = 0.99$  
-> > - “unacceptable” rate $p_{\text{unacceptable}} = 0.95$  
-> > - significance level $\alpha = 0.05$  
-> > - power $1 - \beta = 0.95$
-> >
-> > shows that **on the order of 160–180 total O–Q comparisons** is sufficient to distinguish an acceptable method from an unacceptable one.
-> >
-> > The **21‑per‑condition** design (168 total comparisons) falls comfortably within this range.
+## Scenario: Power Analysis for the AAC→PCM Transcoding Scenario
+
+To design a defensible validation study, each AAC→PCM test item is treated as a **binary diagnostic outcome**:
+
+- **Success:** All three metrics meet their acceptance thresholds  
+  - $\text{PCC} \ge 0.95$  
+  - $\text{MQD} \le 200$  
+  - $\text{LTASS deviation} \le 2 \text{ dB}$  
+
+- **Failure:** Any threshold is violated  
+
+This converts the study into a **binomial proportion problem**, where each file either passes or fails the method’s acceptance criteria.
+
+---
+
+### **Defining the Effect Size**
+
+For forensic use, the method must succeed on **at least 99%** of files:
+
+$$
+p_{\text{acceptable}} = 0.99
+$$
+
+We want enough statistical power to detect if the true success rate is **95% or lower**:
+
+$$
+p_{\text{unacceptable}} = 0.95
+$$
+
+The effect size is the difference:
+
+$$
+\Delta p = p_{\text{acceptable}} - p_{\text{unacceptable}} = 0.04
+$$
+
+This is the smallest performance drop considered meaningful for forensic decision‑making.
+
+---
+
+### **Hypotheses for Power Analysis**
+
+$$
+H_0: p \ge 0.99 \quad \text{(method meets required performance)}
+$$
+
+$$
+H_a: p \le 0.95 \quad \text{(method fails to meet required performance)}
+$$
+
+This is a **one‑sided** test because we only care about detecting under‑performance (failure).
+
+---
+
+### **Error Rates and Power Target**
+
+Following the JFS framework:
+
+- **Type I error:** $\alpha = 0.05$  
+- **Power:** $1 - \beta = 0.95$  
+
+This ensures a $\ge 95\%$ probability of detecting a method that performs at or below $p = 0.95$.
+
+---
+
+### **Determining the Required Sample Size**
+
+Most readers don’t start from power formulas; they start from a practical question:
+
+> “How many original–questioned (O–Q) file pairs do I need per condition so this study isn’t a toy?”
+
+In this framework, each test item is one **O–Q pair**:
+
+> original PCM WAV → AAC (M4A) → questioned PCM WAV
+
+Each pair is classified as **success** (all thresholds met) or **failure** (any threshold violated). The power analysis operates on these success/failure outcomes.
+
+For a typical AAC→PCM study with a modest number of conditions (for example, several bitrates and one or two sampling rates), a **good planning rule** is:
+
+> **Aim for about 20–25 O–Q file pairs per condition.**
+
+#### Example: 4 bitrates × 2 sampling rates
+
+Suppose the study varies:
+
+- 4 bitrates  
+- 2 sampling rates  
+
+This produces:
+
+- 4 × 2 = 8 conditions (cells)
+
+Planning for **21 O–Q pairs per condition** yields:
+
+- 21 pairs × 8 conditions = 168 O–Q comparisons in total
+
+From the statistical side, a one‑sided binomial power analysis with
+
+- target success rate $p_{\text{acceptable}} = 0.99$  
+- “unacceptable” rate $p_{\text{unacceptable}} = 0.95$  
+- significance level $\alpha = 0.05$  
+- power $1 - \beta = 0.95$
+
+shows that **on the order of 160–180 total O–Q comparisons** is sufficient to distinguish an acceptable method from an unacceptable one.
+
+The **21‑per‑condition** design (168 total comparisons) falls comfortably within this range.
+
 
 
 ---
