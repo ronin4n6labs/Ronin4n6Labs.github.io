@@ -5,8 +5,6 @@ date: 2026-03-21
 categories: [research, forensic-ml, white-papers]
 ---
 
-## Evaluating AI/ML‑Based Detection Methods for AI‑Generated Audio
-
 Today marks the release of the first white paper in the *Forensic Machine Learning Framework* (FMLF) series:  
 **_Scientific Foundation Gap Analysis: Evaluating AI/ML‑Based Detection Methods for AI‑Generated Audio in Forensic Science and Legal Contexts._**
 
