@@ -215,10 +215,10 @@ This is a **one‑sided** test because we only care about detecting under‑perf
 
 Following the JFS framework:
 
-- **Type I error:** $\alpha = 0.05$  
-- **Power:** $1 - \beta = 0.95$  
+- **Type I error:** α = 0.05  
+- **Power:** 1 − β = 0.95  
 
-This ensures a $\ge 95\%$ probability of detecting a method that performs at or below $p = 0.95$.
+This ensures a ≥ 95% probability of detecting a method that performs at or below p = 0.95.
 
 ---
 
