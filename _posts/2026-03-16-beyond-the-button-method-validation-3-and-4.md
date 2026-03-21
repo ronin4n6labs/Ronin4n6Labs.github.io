@@ -163,9 +163,9 @@ Power analysis addresses the **probability** of detecting a meaningful effect. I
 To design a defensible validation study, each AAC→PCM test item is treated as a **binary diagnostic outcome**:
 
 - **Success:** All three metrics meet their acceptance thresholds  
-  - $\text{PCC} \ge 0.95$  
-  - $\text{MQD} \le 200$  
-  - $\text{LTASS deviation} \le 2 \text{ dB}$  
+  - $$\text{PCC} \ge 0.95$$  
+  - $$\text{MQD} \le 200$$  
+  - $$\text{LTASS deviation} \le 2 \text{ dB}$$  
 
 - **Failure:** Any threshold is violated  
 
