@@ -95,7 +95,7 @@ For example, when evaluating whether existing digital and multimedia forensic me
 
 - no public ML‑forensic investigative protocol exists  
 - existing DME methods do not address ML decision pathways  
-- Publicly available documentation from NASA does not appear to describe ML-specific, forensic-ready incident investigation procedures for spacecraft systems; instead, existing guidance emphasizes general mishap investigation, software assurance, and AI risk management rather than forensic reconstruction of ML decision pathways
+- Based on publicly available sources, NASA’s current documentation does not describe ML‑specific, forensic‑ready incident investigation procedures for spacecraft systems; existing materials focus on general mishap investigation, software assurance, and AI risk management rather than forensic reconstruction of ML decision pathways.
 - forensic requirements cannot be met with current tools or workflows  
 
 That is the gap.
