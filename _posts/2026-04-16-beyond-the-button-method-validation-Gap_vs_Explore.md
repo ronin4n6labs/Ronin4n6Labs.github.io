@@ -202,7 +202,7 @@ The exploratory study defines the domain so that a forensic‑grade method can b
 
 ---
 
-# **Step 4 — Scientific Foundation Exploratory Analysis (Operationalization Layer)**
+### **Step 4 — Scientific Foundation Exploratory Analysis (Operationalization Layer)**
 
 Once a Scientific Foundation Exploratory Study (SFES) defines the domain, the next step is to **operationalize** that domain so that a forensic‑grade method can eventually be built and validated. This is where **Scientific Foundation Exploratory Analysis (SFEA)** comes in.
 
