@@ -5,8 +5,6 @@ date: 2026-04-16 09:00:00
 categories: method-validation
 ---
 
-# **Beyond the Button, The Next Steps: When Validation Becomes Empirical**
-
 In my 2026 *Journal of Forensic Sciences* (JFS) paper, *A research‑focused framework for empirical method validation in digital and multimedia evidence*, I outlined a structured pathway for developing and validating novel forensic methods. The early stages of that framework—**feasibility studies and scientific foundation gap analyses**—were designed to help researchers move beyond tool‑centric habits and into the scientific discipline that courts and standards bodies now expect.
 
 Recently, during a discussion about my long‑term Forensic Machine Learning (ML) Framework project, someone asked a deceptively simple question:
