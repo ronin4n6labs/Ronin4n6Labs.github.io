@@ -202,12 +202,55 @@ The exploratory study defines the domain so that a forensic‑grade method can b
 
 ---
 
-In forensic ML, this sequence is especially important.  
-Feasibility reveals whether the scenario is worth studying.  
-Gap analysis reveals that existing methods cannot meet forensic requirements.  
-Exploratory studies then define the scientific and legal foundations needed to build a forensic ML investigative method or protocol.
+# **Step 4 — Scientific Foundation Exploratory Analysis (Operationalization Layer)**
 
-This is the workflow I used in the lunar‑lander ML failure scenario, and it is the workflow I use in the Forensic ML Framework: feasibility → identify the gaps → define the domain.
+Once a Scientific Foundation Exploratory Study (SFES) defines the domain, the next step is to **operationalize** that domain so that a forensic‑grade method can eventually be built and validated. This is where **Scientific Foundation Exploratory Analysis (SFEA)** comes in.
+
+Exploratory analysis is not validation.  
+It is not performance testing.  
+It is not claim evaluation.
+
+Its purpose is:
+
+> **Translate the conceptual foundations defined in the exploratory study into operational dimensions, investigative pathways, and failure‑mode structures that a future forensic method must be able to handle.**
+
+In other words, if the exploratory study defines *what the domain is*, exploratory analysis defines *how the domain behaves*.
+
+A Scientific Foundation Exploratory Analysis:
+
+- identifies the operational conditions under which the system behaves predictably or unpredictably  
+- examines boundary conditions, edge cases, and assumption violations  
+- characterizes how the system responds to perturbations, drift, or degraded inputs  
+- explores adversarial, stress, or anomalous scenarios relevant to forensic use  
+- maps decision‑path structures and reconstructability requirements  
+- identifies what artifacts must be preserved for forensic reconstruction  
+- determines what must be observable, measurable, or capturable for a future method to be viable  
+
+This step is **not** about testing a tool or model.  
+It is about understanding the **behavioral space** that a forensic method must eventually inhabit.
+
+Exploratory analysis is where the domain becomes operational:
+
+- the boundaries become testable  
+- the assumptions become explicit  
+- the failure modes become visible  
+- the forensic requirements become concrete  
+- the investigative pathways become structured  
+
+This step is essential because forensic methods cannot be built on conceptual definitions alone. They require an understanding of **how the system behaves under conditions relevant to forensic investigation**, including conditions that are rare, degraded, adversarial, or unexpected.
+
+In the Forensic ML Framework, exploratory analysis is the bridge between:
+
+- **Step 3 — defining the domain**, and  
+- **Step 5 — building a forensic‑grade method or protocol**  
+
+It ensures that when a method is eventually constructed, it is grounded in:
+
+- the scientific foundations (Step 3)  
+- the operational realities (Step 4)  
+- and the forensic requirements identified earlier (Step 2)  
+
+Without exploratory analysis, method development risks being built on assumptions rather than evidence, and validation risks being built on performance rather than forensic reconstructability.
 
 ---
 
