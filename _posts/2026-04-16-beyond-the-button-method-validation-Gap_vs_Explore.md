@@ -202,11 +202,11 @@ The exploratory study defines the domain so that a forensic‑grade method can b
 
 ---
 
-### **Step 4 — Scientific Foundation Exploratory Analysis (Operationalization Layer)**
+### **Step 4 — Method Foundations Analysis (Operational Exploratory Phase)**
 
-Once a Scientific Foundation Exploratory Study (SFES) defines the domain, the next step is to **operationalize** that domain so that a forensic‑grade method can eventually be built and validated. This is where **Scientific Foundation Exploratory Analysis (SFEA)** comes in.
+Once a Scientific Foundation Exploratory Study (SFES) defines the domain, the next step is to **operationalize** that domain so that a forensic‑grade method or protocol can eventually be built and validated. This is the role of **Method Foundations Analysis**, which functions as an **Operational Exploratory Phase**.
 
-Exploratory analysis is not validation.  
+This phase is not validation.  
 It is not performance testing.  
 It is not claim evaluation.
 
@@ -214,9 +214,9 @@ Its purpose is:
 
 > **Translate the conceptual foundations defined in the exploratory study into operational dimensions, investigative pathways, and failure‑mode structures that a future forensic method must be able to handle.**
 
-In other words, if the exploratory study defines *what the domain is*, exploratory analysis defines *how the domain behaves*.
+In other words, if the exploratory study defines *what the domain is*, Method Foundations Analysis defines *how the domain behaves* under conditions relevant to forensic investigation.
 
-A Scientific Foundation Exploratory Analysis:
+Method Foundations Analysis:
 
 - identifies the operational conditions under which the system behaves predictably or unpredictably  
 - examines boundary conditions, edge cases, and assumption violations  
@@ -226,10 +226,10 @@ A Scientific Foundation Exploratory Analysis:
 - identifies what artifacts must be preserved for forensic reconstruction  
 - determines what must be observable, measurable, or capturable for a future method to be viable  
 
-This step is **not** about testing a tool or model.  
+This phase is **not** about testing a tool or model.  
 It is about understanding the **behavioral space** that a forensic method must eventually inhabit.
 
-Exploratory analysis is where the domain becomes operational:
+Method Foundations Analysis is where the domain becomes operational:
 
 - the boundaries become testable  
 - the assumptions become explicit  
@@ -237,9 +237,9 @@ Exploratory analysis is where the domain becomes operational:
 - the forensic requirements become concrete  
 - the investigative pathways become structured  
 
-This step is essential because forensic methods cannot be built on conceptual definitions alone. They require an understanding of **how the system behaves under conditions relevant to forensic investigation**, including conditions that are rare, degraded, adversarial, or unexpected.
+This phase is essential because forensic methods cannot be built on conceptual definitions alone. They require an understanding of **how the system behaves under conditions relevant to forensic investigation**, including conditions that are rare, degraded, adversarial, or unexpected.
 
-In the Forensic ML Framework, exploratory analysis is the bridge between:
+In the Forensic ML Framework, Method Foundations Analysis is the bridge between:
 
 - **Step 3 — defining the domain**, and  
 - **Step 5 — building a forensic‑grade method or protocol**  
@@ -250,7 +250,7 @@ It ensures that when a method is eventually constructed, it is grounded in:
 - the operational realities (Step 4)  
 - and the forensic requirements identified earlier (Step 2)  
 
-Without exploratory analysis, method development risks being built on assumptions rather than evidence, and validation risks being built on performance rather than forensic reconstructability.
+Without this phase, method development risks being built on assumptions rather than evidence, and validation risks being built on performance rather than forensic reconstructability.
 
 ---
 
