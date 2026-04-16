@@ -146,7 +146,7 @@ The gap analyses revealed that:
 
 - no forensic ML investigative protocols exist  
 - existing digital and multimedia forensic methods do not address ML decision pathways  
-- agencies such as NASA, NTSB, or DoD have no public ML‑forensic incident procedures  
+- Publicly available documentation from agencies such as NASA, NTSB, and DoD does not appear to include ML‑specific, forensic‑ready incident investigation procedures; existing materials focus on general mishap investigation, safety analysis, and cybersecurity rather than forensic reconstruction of ML decision pathways. 
 - forensic requirements cannot be met with current tools or workflows  
 
 The exploratory studies then take the next step:  
